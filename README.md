@@ -67,30 +67,7 @@ cd quantum-circuit-dataset
 pip install -r requirements.txt
 
 # Run pipeline
-python main.py --config config.yaml
-```
-
-## 📁 Project Structure
-
-```
-├── src/
-│   ├── main.py                      # Pipeline orchestrator
-│   ├── download_manager.py          # arXiv download & validation
-│   ├── pdf_image_extractor.py       # Multi-method extraction
-│   ├── detection_orchestrator.py    # Detection coordination
-│   ├── caption_filter.py            # Keyword filtering
-│   ├── embedding_detector.py        # DINOv2 classification
-│   ├── visual_gate_detector.py      # OCR validation
-│   ├── quantum_problem_classifier.py # SciBERT classification
-│   ├── metadata_compiler.py         # Metadata extraction
-│   └── checkpoint_manager.py        # Progress tracking
-├── config/
-│   ├── config.yaml                  # Pipeline configuration
-│   └── quantum_problem_config.py    # Problem categories
-├── data/
-│   ├── reference_embeddings/        # DINOv2 reference database
-│   └── output/                      # Generated dataset
-└── requirements.txt
+python main.py
 ```
 
 ## 📦 Output Format
