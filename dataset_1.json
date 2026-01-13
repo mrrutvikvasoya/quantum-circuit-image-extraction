@@ -1,0 +1,4585 @@
+{
+  "2504.13910_1.png": {
+    "arxiv_number": "2504.13910",
+    "page_number": 6,
+    "figure_number": 4,
+    "quantum_gates": [
+      "RX",
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "C. Variational Quantum Circuit Fig. 4 shows a quantum circuit with variational properties"
+    ],
+    "text_positions": [
+      [
+        8557,
+        8646
+      ]
+    ]
+  },
+  "2504.13910_2.png": {
+    "arxiv_number": "2504.13910",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "[3] is depicted in Fig. 3 which has a significant role in the detection accuracy. Four inputs,"
+    ],
+    "text_positions": [
+      [
+        8294,
+        8388
+      ]
+    ]
+  },
+  "2502.06961_1.png": {
+    "arxiv_number": "2502.06961",
+    "page_number": 3,
+    "figure_number": 1,
+    "quantum_gates": [
+      "H",
+      "RY",
+      "RZ",
+      "U"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "FIG. 1: a) Cost Function Circuit. Optimisation of this circuit over U ′ gives the unitary describing the time evolution of the state unitary U(t) to the next time step. This circuit is a second order power method evaluation of the leading eigenvalue of the mixed transfer matrix (indicated by the solid red box). The right fixed point of this transfer matrix is approximated to O(dt2) by the open circuit. The left fixed point (indi- cated by the dashed red box) is approximated as shown - the optimum fidelity density is not affected by this choice. b) Ansatz decomposition. The two qubit unitary U representing the matrix product state is ap- proximated by the reduced ansatz shown."
+    ],
+    "text_positions": [
+      [
+        9871,
+        10948
+      ]
+    ]
+  },
+  "2502.06961_2.png": {
+    "arxiv_number": "2502.06961",
+    "page_number": 6,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "U"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "With no sampling cost mitigation, the full evolution produced would be too costly to run and therefore in- feasible. In order to reduce this cost, we use a linear extrapolation in the ansatz parameter space to make an initial guess of the parameters at the next time step. This affords a 103 reduction in the sampling space compared to using the current parameters as a starting point for the next time step. Fig. 3 shows a comparison of how the algorithm performs with the same small number of updates of the SPSA optimisation for 3 different initial- isation schemes. We fix the number of SPSA updates to be the same as used in the experiment, and run with perfect gate simulation, i.e. so that the only source of noise is sampling error. The figure shows 5 schemes in"
+    ],
+    "text_positions": [
+      [
+        24088,
+        24858
+      ]
+    ]
+  },
+  "2502.06961_3.png": {
+    "arxiv_number": "2502.06961",
+    "page_number": 6,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "where we have highlighted the auxiliary space qubit lines in red. The lack of Hadamard test on the auxiliary space qubits is a property of the infinite sequential nature of our states. We shall turn to this in a moment. iv. Recasting the above circuit by reusing qubits recovers Fig.(1), where the unitaries in this latter circuit have their outgoing legs swapped. We are now in a position to address the question of why there is no Hadamard test on the auxiliary space qubits. To do so, we note that approximating the right fixed point (or lower fixed point in step ii."
+    ],
+    "text_positions": [
+      [
+        22168,
+        22863
+      ]
+    ]
+  },
+  "2405.16322_1.png": {
+    "arxiv_number": "2405.16322",
+    "page_number": 15,
+    "figure_number": 10,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "Consider the general case when the controls of Cn(H⊗n) encode a state associated to node t. From now on we will use the notation introduced [16], where multi-control gates have two superindices. The first superindex corresponds to the number of controls and the second superindex corresponds to the decimal representation of the sequence formed by the controls of the quantum gate. Thus, the multi-control Hadamard gate in Fig. 10 can be expressed by Cn,t(H⊗n). The quantum circuit implementation of the search complement algorithm consists of five steps:"
+    ],
+    "text_positions": [
+      [
+        50623,
+        51178
+      ]
+    ]
+  },
+  "2405.16322_2.png": {
+    "arxiv_number": "2405.16322",
+    "page_number": 10,
+    "figure_number": 5,
+    "quantum_gates": [
+      "H",
+      "SWAP",
+      "CNOT"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "To improve even further the experimental performance of the algorithm, we decided to use the Hadamard coin, given that the Hadamard coin is far less expensive than the Grover coin. The reason being is that the Hadamard coin applies a single-qubit Hadamard gate to each of the m qubits of the coin register, while the quantum circuit implementation of Grover’s operator uses an (m−1)-qubit multi-control Z gate, Cm−1(Z), and the gate Cm−1(Z) is typically decomposed into an exponential number of CNOT and phase shift gates [34], where m is the size of the coin register. Therefore, as an example, we display in Fig. 5 the circuit form of the modified evolution operator U ′ we will use for the search of state |1⟩⊗n, which is associated to node 2n −1."
+    ],
+    "text_positions": [
+      [
+        33033,
+        34302
+      ]
+    ]
+  },
+  "2405.16322_3.png": {
+    "arxiv_number": "2405.16322",
+    "page_number": 15,
+    "figure_number": 10,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "Consider the general case when the controls of Cn(H⊗n) encode a state associated to node t. From now on we will use the notation introduced [16], where multi-control gates have two superindices. The first superindex corresponds to the number of controls and the second superindex corresponds to the decimal representation of the sequence formed by the controls of the quantum gate. Thus, the multi-control Hadamard gate in Fig. 10 can be expressed by Cn,t(H⊗n). The quantum circuit implementation of the search complement algorithm consists of five steps:"
+    ],
+    "text_positions": [
+      [
+        50623,
+        51178
+      ]
+    ]
+  },
+  "2405.16322_4.png": {
+    "arxiv_number": "2405.16322",
+    "page_number": 6,
+    "figure_number": 2,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "This generalization allows C to act differently depending on the position state |vk⟩, and that property is key for running the SKW algorithm. In circuit form, Eq. (12) can be defined as presented in Fig. 2, where we show a sequence of fully controlled gates, with a different pattern of white and black controls. We must interpret this pattern of controls as binary code, in such a way that black controls represent a 1, white controls represent a 0, and the uppermost control corresponds to the least significant bit. This way, each coin operator Ci will act only on the position state whose binary representation coincides with the sequence of black and white dots that controls it. The mapping to binary of a state represented by an integer can be done as explained in [16]."
+    ],
+    "text_positions": [
+      [
+        18061,
+        18838
+      ]
+    ]
+  },
+  "2405.16322_5.png": {
+    "arxiv_number": "2405.16322",
+    "page_number": 18,
+    "figure_number": 12,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "To begin with, currently, IBM’s Quantum Composer does not allow the implementation of multi-target-multi-controlled Hadamard gates. Thus, we have to apply gate identities to decompose it into single-qubit and single-control single-target gates. The identities used are the one displayed in Fig. 12, where we first present a way to decompose the original gate into two multiple-control single-target gates (Fig. 12(a)), and then we present how to decompose a two-control single-target gate into two CNOT gates and two single-control single-target gates with target V = √"
+    ],
+    "text_positions": [
+      [
+        56658,
+        57227
+      ]
+    ]
+  },
+  "2405.16322_6.png": {
+    "arxiv_number": "2405.16322",
+    "page_number": 14,
+    "figure_number": 8,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Benchmarking",
+    "descriptions": [
+      "Now, the calculation of the probability matrix might be useful to study the behaviour of the algorithm in low-dimensional cases of different topologies, using different coins, different target nodes and different initial states, in order for us to notice patterns that can generalize to higher-dimensional cases. As an example of this statement, consider Fig. 8. This figure contains the search complement circuit for target states |00⟩, |01⟩, |10⟩and |11⟩, in that order from top to bottom, and next to each circuit we can see the associated probability matrix. The probability matrices are split into blocks delimited by four consecutive columns."
+    ],
+    "text_positions": [
+      [
+        44229,
+        45122
+      ]
+    ]
+  },
+  "2405.16322_7.png": {
+    "arxiv_number": "2405.16322",
+    "page_number": 14,
+    "figure_number": 8,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "Now, the calculation of the probability matrix might be useful to study the behaviour of the algorithm in low-dimensional cases of different topologies, using different coins, different target nodes and different initial states, in order for us to notice patterns that can generalize to higher-dimensional cases. As an example of this statement, consider Fig. 8. This figure contains the search complement circuit for target states |00⟩, |01⟩, |10⟩and |11⟩, in that order from top to bottom, and next to each circuit we can see the associated probability matrix. The probability matrices are split into blocks delimited by four consecutive columns."
+    ],
+    "text_positions": [
+      [
+        44229,
+        45122
+      ]
+    ]
+  },
+  "2405.16322_8.png": {
+    "arxiv_number": "2405.16322",
+    "page_number": 14,
+    "figure_number": 8,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "Now, the calculation of the probability matrix might be useful to study the behaviour of the algorithm in low-dimensional cases of different topologies, using different coins, different target nodes and different initial states, in order for us to notice patterns that can generalize to higher-dimensional cases. As an example of this statement, consider Fig. 8. This figure contains the search complement circuit for target states |00⟩, |01⟩, |10⟩and |11⟩, in that order from top to bottom, and next to each circuit we can see the associated probability matrix. The probability matrices are split into blocks delimited by four consecutive columns."
+    ],
+    "text_positions": [
+      [
+        44229,
+        45122
+      ]
+    ]
+  },
+  "2405.16322_9.png": {
+    "arxiv_number": "2405.16322",
+    "page_number": 14,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "columns of each probability matrix. The first four columns of each probability matrix are associated to coin state |00⟩. This means that for any of the quantum circuits of Fig. 8 if we initialize the state the UCDTQW |ψ⟩with any position state, but always keep the coin state fixed at |00⟩, i.e."
+    ],
+    "text_positions": [
+      [
+        45456,
+        46250
+      ]
+    ]
+  },
+  "2405.16322_10.png": {
+    "arxiv_number": "2405.16322",
+    "page_number": 18,
+    "figure_number": 12,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "To begin with, currently, IBM’s Quantum Composer does not allow the implementation of multi-target-multi-controlled Hadamard gates. Thus, we have to apply gate identities to decompose it into single-qubit and single-control single-target gates. The identities used are the one displayed in Fig. 12, where we first present a way to decompose the original gate into two multiple-control single-target gates (Fig. 12(a)), and then we present how to decompose a two-control single-target gate into two CNOT gates and two single-control single-target gates with target V = √"
+    ],
+    "text_positions": [
+      [
+        56658,
+        57227
+      ]
+    ]
+  },
+  "2412.01173_1.png": {
+    "arxiv_number": "2412.01173",
+    "page_number": 3,
+    "figure_number": 2,
+    "quantum_gates": [
+      "H",
+      "RX",
+      "RY",
+      "T"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "2n |q1⟩⊗ |q2⟩⊗· · ·⊗|qn⟩. Additionally, Ry gates are used, with rotation angles set according to the input data x1, . . . , xn, resulting in U(x) = Ry(x1)H ⊗· · · ⊗Ry(xn)H. The encoded state then passes through the variational block (indicated by the dashed box), which consists of multiple layers of learnable quantum circuits Vj(⃗θj). The Vj circuit block used in this work is shown in the boxed region in Figure 2 and can be repeated L times to increase the number of learnable parameters. Each Vj block contains CNOT gates to entangle quantum information and parameterized gates Ry. We denote the trainable part by W(Θ), defined as W(Θ) = VL( ⃗θL)VL−1( ⃗ θL−1) · · · V1(⃗θ1), where L represents the number of layers and Θ is the collection of all trainable parameters ⃗θ1, · · · , ⃗θL."
+    ],
+    "text_positions": [
+      [
+        9919,
+        10898
+      ]
+    ]
+  },
+  "2401.01942_1.png": {
+    "arxiv_number": "2401.01942",
+    "page_number": 12,
+    "figure_number": 7,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "where A(i, j) stands for the total area of the flux loops in the total system in the state |i⟩B |j⟩A. From Fig. 7, we conclude that the area of the loop is determined based on the directionality of the closing of the loop: If the loop is closed below the subsystem (yellow route in Fig. 7), the loop area would be the sum of the area covered by the loop in the environment and the area below the flux line in subsystem A. If the loop is closed above the subsystem (pink route in Fig. 7), the total area would be the sum of the loop area in the environment and the area above the flux line in A. The projected state of the system may thus be written as"
+    ],
+    "text_positions": [
+      [
+        49085,
+        49736
+      ]
+    ]
+  },
+  "2411.18354_1.png": {
+    "arxiv_number": "2411.18354",
+    "page_number": 2,
+    "figure_number": 2,
+    "quantum_gates": [
+      "M",
+      "T"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "element in the pair of amplitudes that need to be processed for any given iteration i ∈Ig. Our goal is to be able to schedule only the number of iterations that are required taking into account each added control, i.e. introduce a reduced iteration index set Ir = [0, 2n−nc−1 −1], where nc is the number of controls of the gate. The challenge is to map this reduced set Ir back to the global set Ig, as directly scheduling Ir would result in incorrect calculations. The idea is to iteratively map the smaller iteration sets back to Ig, considering each control qubit, selecting the values of i from Ig (which can be plugged into ithCleared) that correspond to Ir taking into account the set of controls applied to the gate C = {c0, c1, ..., cnc−1}."
+    ],
+    "text_positions": [
+      [
+        12140,
+        15470
+      ]
+    ]
+  },
+  "2411.18354_2.png": {
+    "arxiv_number": "2411.18354",
+    "page_number": 5,
+    "figure_number": 6,
+    "quantum_gates": [
+      "H",
+      "RZ"
+    ],
+    "quantum_problem": "QFT_QPE",
+    "descriptions": [
+      "realm. It is a key component in several quantum algorithms, including Shor’s algorithm [16], QFT-based arithmetic algo- rithms [6], and quantum phase estimation algorithms. The QFT maps an input quantum state to its Fourier transformed state in polynomial quantum time, allowing for the efficient manipulation of quantum information. The QFT circuit has a staircase pattern of Hadamard and controlled phase rotation gates. An example 5-qubit QFT circuit is shown in Figure 6; generalised n-qubit QFT circuits can be constructed following the same pattern. Figure 7 shows the total energy consumption for running QFT circuits of various circuit widths across the three evalu- ation platforms and both architectures."
+    ],
+    "text_positions": [
+      [
+        22857,
+        23571
+      ]
+    ]
+  },
+  "2505.22932_1.png": {
+    "arxiv_number": "2505.22932",
+    "page_number": 3,
+    "figure_number": 1,
+    "quantum_gates": [
+      "RX",
+      "RZ",
+      "S"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "where Xi, Zi are on-site (qubit) Pauli operators i ∈ [0, N −1] and N is the system size. ⟨...⟩(⟨⟨...⟩⟩) de- notes that the sum is restricted to nearest neighbor (next- nearest neighbor) pairs of the spin exchange interaction on the square lattice. In our notation, positive J1 (> 0) enforces ferromagnetic coupling between the spins while positive J2 (> 0) denotes antiferromagnetic coupling. Hereafter we set J1 = 1 and vary both next-nearest- neighbor interaction J2 and the transverse field strength Bx as control parameters. Due to the competition be- tween nearest-neighbor and next-nearest-neighbor inter- actions and the presence of the quantum fluctuations in- duced by the transverse field Bx, the system exhibits a rich ground-state profile."
+    ],
+    "text_positions": [
+      [
+        8668,
+        10700
+      ]
+    ]
+  },
+  "2505.24366_1.png": {
+    "arxiv_number": "2505.24366",
+    "page_number": 19,
+    "figure_number": null,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "where ϕi( ), ϕii( ) . . . denote the orbitals considered as functions of arbitrary position arguments. To avoid pos-"
+    ],
+    "text_positions": [
+      [
+        76933,
+        77049
+      ]
+    ]
+  },
+  "2505.24366_2.png": {
+    "arxiv_number": "2505.24366",
+    "page_number": 19,
+    "figure_number": null,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "By making use of the Young symmetrizers for a con- crete orbital set, as indicated in the diagram cells of (B11) and (B12), we arrive at the following orbital compositions for the ansatz position wavefunctions"
+    ],
+    "text_positions": [
+      [
+        77606,
+        77815
+      ]
+    ]
+  },
+  "2505.24366_3.png": {
+    "arxiv_number": "2505.24366",
+    "page_number": 19,
+    "figure_number": null,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "where ϕi( ), ϕii( ) . . . denote the orbitals considered as functions of arbitrary position arguments. To avoid pos-"
+    ],
+    "text_positions": [
+      [
+        76933,
+        77049
+      ]
+    ]
+  },
+  "2505.24366_4.png": {
+    "arxiv_number": "2505.24366",
+    "page_number": 19,
+    "figure_number": null,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "where ϕi( ), ϕii( ) . . . denote the orbitals considered as functions of arbitrary position arguments. To avoid pos-"
+    ],
+    "text_positions": [
+      [
+        76933,
+        77049
+      ]
+    ]
+  },
+  "2402.18684_1.png": {
+    "arxiv_number": "2402.18684",
+    "page_number": 6,
+    "figure_number": 1,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Fig. 1: Quantum compression with embedded polar codes for blocklength 4."
+    ],
+    "text_positions": [
+      [
+        20782,
+        20854
+      ]
+    ]
+  },
+  "2402.18684_2.png": {
+    "arxiv_number": "2402.18684",
+    "page_number": 6,
+    "figure_number": 1,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Fig. 1: Quantum compression with embedded polar codes for blocklength 4."
+    ],
+    "text_positions": [
+      [
+        20782,
+        20854
+      ]
+    ]
+  },
+  "2405.03390_1.png": {
+    "arxiv_number": "2405.03390",
+    "page_number": 17,
+    "figure_number": 25,
+    "quantum_gates": [
+      "RZ",
+      "X"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "FIG. 25. Quantum Circuit for product feature map qubits"
+    ],
+    "text_positions": [
+      [
+        58417,
+        58472
+      ]
+    ]
+  },
+  "2405.03390_2.png": {
+    "arxiv_number": "2405.03390",
+    "page_number": 16,
+    "figure_number": 22,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "FIG. 22. Quantum Circuit for linearly entangled qubits"
+    ],
+    "text_positions": [
+      [
+        55917,
+        55971
+      ]
+    ]
+  },
+  "2405.03390_3.png": {
+    "arxiv_number": "2405.03390",
+    "page_number": 16,
+    "figure_number": 24,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "FIG. 24. Quantum Circuit for fully entangled symmetric qubits"
+    ],
+    "text_positions": [
+      [
+        57014,
+        57075
+      ]
+    ]
+  },
+  "2405.03390_4.png": {
+    "arxiv_number": "2405.03390",
+    "page_number": 16,
+    "figure_number": 23,
+    "quantum_gates": [
+      "H",
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "FIG. 23. Quantum Circuit for fully entangled qubits"
+    ],
+    "text_positions": [
+      [
+        56805,
+        56856
+      ]
+    ]
+  },
+  "2405.03390_5.png": {
+    "arxiv_number": "2405.03390",
+    "page_number": 16,
+    "figure_number": 23,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "FIG. 23. Quantum Circuit for fully entangled qubits"
+    ],
+    "text_positions": [
+      [
+        56805,
+        56856
+      ]
+    ]
+  },
+  "2510.17984_1.png": {
+    "arxiv_number": "2510.17984",
+    "page_number": 5,
+    "figure_number": 1,
+    "quantum_gates": [
+      "RX",
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "We want to quantify, in a basis–independent manner, how much of the dynamical informa- tion present in a boosted hadronic top jet survives the mapping from classical four–vectors to a quantum state in the 1P1Q scheme. For this task, we employ the QFIM, a quantity that sits at the intersection of differential geometry and quantum estimation theory [17, 25]. On the manifold of pure states endowed with the Fubini–Study metric [26, 27], the QFIM acts as the local metric tensor; its components therefore measure the squared geodesic dis- tance that the state |ψ(θ)⟩travels under an infinitesimal change of the circuit parameters θ. Large entries signal directions in parameter space along which the state moves rapidly, implying high sensitivity and good trainability."
+    ],
+    "text_positions": [
+      [
+        8965,
+        9936
+      ]
+    ]
+  },
+  "2406.03204_1.png": {
+    "arxiv_number": "2406.03204",
+    "page_number": 15,
+    "figure_number": 5,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "Theorem 4.1 in [38] indicates that it is always possible to choose the imaginary part of ω large enough such that g(j)(ω) satisfies the required condition. Note that, assuming a perfect quantum algorithm (i.e. no hardware and sampling noise so γ(j) = δ(j) = β(j) = 0), but an initial state with infidelity ϵ, this theorem tells us that the error of the algorithm is controlled by the infidelity, as the parameter s is assumed to be upper-bounding ξ(j) which becomes equal to the error in the continued fraction at level j, ε(j) in this scenario. We also investigate numerically this stability. In particular, to study the stability of the al- gorithm with respect to a state that does not exactly commute with the Hamiltonian, we use ρk that is prepared with a k-layer VQE circuit as in [39]."
+    ],
+    "text_positions": [
+      [
+        41477,
+        42323
+      ]
+    ]
+  },
+  "2508.02514_1.png": {
+    "arxiv_number": "2508.02514",
+    "page_number": 3,
+    "figure_number": 1,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "2 (see Figure 1 for an illustration of the algorithm.) The intuition for this quantum algorithm comes from the ability of quantum circuits to implement the Fourier transform. We can view the Fourier transform as a unitary map that transforms the truth table of f into that of bf (up to a normalization factor of 2n/2). Additionally, this unitary map turns out to"
+    ],
+    "text_positions": [
+      [
+        9212,
+        9574
+      ]
+    ]
+  },
+  "2501.02222_1.png": {
+    "arxiv_number": "2501.02222",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "The cross-resonance gate has become a key component in the development of 2-qubit entangling operations [25– 27] for superconducting quantum computers [28–30]. It creates entanglement by applying microwave pulses, which eliminates the need for adjustable qubit frequen- cies or tunable couplings [20]. This makes it an attractive option for scaling up quantum systems, as it reduces the complexity of control systems and the number of input lines needed. In comparison to other methods that rely on varying magnetic flux to adjust qubit frequencies [31– 33] or coupling strengths [34], or that use microwave pulses on bus systems to generate entanglement [35], the CR gate offers a more streamlined and efficient approach."
+    ],
+    "text_positions": [
+      [
+        10498,
+        12900
+      ]
+    ]
+  },
+  "2501.02222_2.png": {
+    "arxiv_number": "2501.02222",
+    "page_number": 7,
+    "figure_number": 18,
+    "quantum_gates": [
+      "RZ",
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "The impact of qubit connectivity on quantum algo- rithm performance is a crucial aspect of quantum com- puting hardware design. While many quantum algo- rithms have been developed with ideal all-to-all connec- tivity in mind, near-term practical quantum devices often feature restricted connectivity due to physical and engi- neering constraints [60]. This limitation can affect the performance and efficiency of quantum algorithms. How- ever, by tailoring quantum algorithms to the specific con- nectivity constraints of the hardware, it is possible to sig- nificantly improve performance, making practical quan- tum computing more achievable even with less-connected qubit architectures [61]. For this purpose, we propose decomposing the CCX gate into nine ECR gates, as detailed in Eq. (18)."
+    ],
+    "text_positions": [
+      [
+        23833,
+        24879
+      ]
+    ]
+  },
+  "2501.02222_3.png": {
+    "arxiv_number": "2501.02222",
+    "page_number": 6,
+    "figure_number": 16,
+    "quantum_gates": [
+      "T",
+      "H",
+      "CCX",
+      "CNOT",
+      "SWAP"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "The impact of qubit connectivity on quantum algo- rithm performance is a crucial aspect of quantum com- puting hardware design. While many quantum algo- rithms have been developed with ideal all-to-all connec- tivity in mind, near-term practical quantum devices often feature restricted connectivity due to physical and engi- neering constraints [60]. This limitation can affect the performance and efficiency of quantum algorithms."
+    ],
+    "text_positions": [
+      [
+        23833,
+        24879
+      ]
+    ]
+  },
+  "2501.02222_4.png": {
+    "arxiv_number": "2501.02222",
+    "page_number": 6,
+    "figure_number": 16,
+    "quantum_gates": [
+      "H",
+      "SWAP",
+      "CCX",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "While earlier studies have focused on optimizing the Toffoli gate at the pulse level [59], these optimizations often introduce an unintended SWAP gate between the control qubits. Although this side effect can be useful in some cases, it may not always be desirable, depending on the specific application or hardware constraints. A method for optimizing quantum circuits by consid- ering the native gate set of the hardware is proposed in [24]."
+    ],
+    "text_positions": [
+      [
+        23083,
+        23807
+      ]
+    ]
+  },
+  "2509.06054_1.png": {
+    "arxiv_number": "2509.06054",
+    "page_number": 23,
+    "figure_number": 1,
+    "quantum_gates": [
+      "SWAP",
+      "T"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "The circuit design in Fig. 1 can be extended for any order Magnus term ˜Ωk in the Magnus expansion ˜Ω(p) for 1 ≤k ≤p. Using the LCU method with PREP and PREP† as shown in Fig. 2, we can extend the quantum circuit of the Magnus expansion of order 3 to any order p. Fig. 3 shows the construction of quantum circuit of block encoding for p-th order Magnus expansion ˜Ω(p)."
+    ],
+    "text_positions": [
+      [
+        69738,
+        70107
+      ]
+    ]
+  },
+  "2411.00990_1.png": {
+    "arxiv_number": "2411.00990",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "RX",
+      "RY"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "importance of tailoring the ansatz to the specific character- istics of the quantum system under investigation, as this can optimize performance and resource utilization. Moreover, the balance between complexity and efficiency is crucial; an ideal ansatz should be flexible enough to adapt to various quan- tum states without incurring excessive computational costs. Therefore, careful selection and design of the ansatz are fun- damental to the success of variational algorithms in quantum computing. For the simulations carried out in this paper, five HE ansatz circuits were considered (Figure 3). The first three are ansatz (v1, v2, v3) used in reference [46] to calculate the ground state of the benzene molecule. The v4 was proposed considering changes in the rotations of the ansatz V1."
+    ],
+    "text_positions": [
+      [
+        15947,
+        17809
+      ]
+    ]
+  },
+  "2411.00990_2.png": {
+    "arxiv_number": "2411.00990",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "RY"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "importance of tailoring the ansatz to the specific character- istics of the quantum system under investigation, as this can optimize performance and resource utilization. Moreover, the balance between complexity and efficiency is crucial; an ideal ansatz should be flexible enough to adapt to various quan- tum states without incurring excessive computational costs. Therefore, careful selection and design of the ansatz are fun- damental to the success of variational algorithms in quantum computing. For the simulations carried out in this paper, five HE ansatz circuits were considered (Figure 3). The first three are ansatz (v1, v2, v3) used in reference [46] to calculate the ground state of the benzene molecule. The v4 was proposed considering changes in the rotations of the ansatz V1."
+    ],
+    "text_positions": [
+      [
+        15947,
+        17809
+      ]
+    ]
+  },
+  "2503.15482_1.png": {
+    "arxiv_number": "2503.15482",
+    "page_number": 4,
+    "figure_number": 6,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "entanglement. Fig. 6 shows the circuit diagram for this weak measurement protocol. If the neuron qubit is initially in the state |ψ0⟩= α|0⟩+β|1⟩, then, after the entangling gate, the two-qubit system will be in the state"
+    ],
+    "text_positions": [
+      [
+        14355,
+        14575
+      ]
+    ]
+  },
+  "2506.18061_1.png": {
+    "arxiv_number": "2506.18061",
+    "page_number": 10,
+    "figure_number": null,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "TABLE II. Supplementary data on code distances for the [[180,6,9]] BB code."
+    ],
+    "text_positions": [
+      [
+        35512,
+        35587
+      ]
+    ]
+  },
+  "2510.08864_1.png": {
+    "arxiv_number": "2510.08864",
+    "page_number": 6,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "The Jordan-Wigner transformation maps fermionic operators to qubit operators in a way that preserves parity and ensures the correct phase (sign) of the wave function after a transition. However, in our ansatz, the rotation angles θi control the phase of the ﬁnal state after each transition. Therefore, strictly preserving the sign within the transition operator is not necessary: by adjusting θi, we can still generate all possible system states even if the transition operator does not reproduce the exact fermionic sign. To maintain fermionic parity, the original transition block includes a staircase of CX-gates. In our modiﬁed ansatz, we remove this CX-gate ladder and test its eﬀect. This modiﬁcation substantially reduces the number of CX-gates and results in a shallower quantum circuit."
+    ],
+    "text_positions": [
+      [
+        11026,
+        12290
+      ]
+    ]
+  },
+  "2510.08864_2.png": {
+    "arxiv_number": "2510.08864",
+    "page_number": 6,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "The Jordan-Wigner transformation maps fermionic operators to qubit operators in a way that preserves parity and ensures the correct phase (sign) of the wave function after a transition. However, in our ansatz, the rotation angles θi control the phase of the ﬁnal state after each transition. Therefore, strictly preserving the sign within the transition operator is not necessary: by adjusting θi, we can still generate all possible system states even if the transition operator does not reproduce the exact fermionic sign. To maintain fermionic parity, the original transition block includes a staircase of CX-gates. In our modiﬁed ansatz, we remove this CX-gate ladder and test its eﬀect. This modiﬁcation substantially reduces the number of CX-gates and results in a shallower quantum circuit."
+    ],
+    "text_positions": [
+      [
+        11026,
+        12290
+      ]
+    ]
+  },
+  "2509.15451_1.png": {
+    "arxiv_number": "2509.15451",
+    "page_number": 25,
+    "figure_number": 12,
+    "quantum_gates": [
+      "M",
+      "RY",
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "In this section we present examples of the most optimal circuits that were discovered by our algo- rithm in three different settings - vanilla RES, RELM with random search initialization and RELM with RES initialization. More specifically, we present discovered circuits for image compression and denoising tasks. Figure 12 shows the best circuits discovered by our proposed algorithms in different combina- tions for the image data compression task. We can see that all discovered circuits differ significantly from the baseline circuit AE circuit. In the case of RES algorithm (top left) we see that the dis- covered circuit favors more single qubit rotation gates with a full entanglement."
+    ],
+    "text_positions": [
+      [
+        67802,
+        69834
+      ]
+    ]
+  },
+  "2509.15451_2.png": {
+    "arxiv_number": "2509.15451",
+    "page_number": 24,
+    "figure_number": 11,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "In this section, we describe in details the image datasets and the baseline circuits used in the hybrid quantum setting of our experiments which is required for reproducibility and experiments. Figure 10 shows the representative images used in the image compression experiments. The Tetris dataset was inspired by the work of Liu et al. [32]. However, we use an image size of 4 × 4 and restrict ourselves to four types of Tetris blocks. The digits dataset is a simplified version of the MNIST dataset where the background pixels are chosen uniformly between [0.01, 0.05] and the foreground pixels are uniformly. chosen from [0.5, 1]. In order to benchmark our image compression performance on these datasets we created a simple baseline circuit shown in Figure 11."
+    ],
+    "text_positions": [
+      [
+        66353,
+        67356
+      ]
+    ]
+  },
+  "2509.15451_3.png": {
+    "arxiv_number": "2509.15451",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RZ",
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "In order to enable a search algorithm to perform search over multiple possible architectures, an encoding is needed to represent them within the search space. Many different encodings like list based [14,15], DAG based [16,17] and tensor based [18] have been proposed in literature. Readers are encouraged to follow the survey by Martyniuk et al. [19] and the references contained therein for a more comprehensive review of the encoding strategies used in other QAS algorithms. Given that many different encoding strategies have been tried in recent literature, a natural question to ask is - what is the need for a newer type of encoding? There are two answers to this question."
+    ],
+    "text_positions": [
+      [
+        17928,
+        20213
+      ]
+    ]
+  },
+  "2509.15451_4.png": {
+    "arxiv_number": "2509.15451",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "In order to enable a search algorithm to perform search over multiple possible architectures, an encoding is needed to represent them within the search space. Many different encodings like list based [14,15], DAG based [16,17] and tensor based [18] have been proposed in literature. Readers are encouraged to follow the survey by Martyniuk et al. [19] and the references contained therein for a more comprehensive review of the encoding strategies used in other QAS algorithms. Given that many different encoding strategies have been tried in recent literature, a natural question to ask is - what is the need for a newer type of encoding? There are two answers to this question."
+    ],
+    "text_positions": [
+      [
+        17928,
+        20213
+      ]
+    ]
+  },
+  "2509.15451_5.png": {
+    "arxiv_number": "2509.15451",
+    "page_number": 21,
+    "figure_number": 9,
+    "quantum_gates": [
+      "RZ"
+    ],
+    "quantum_problem": "Benchmarking",
+    "descriptions": [
+      "Figure 9 shows the hybrid quantum-classical pipeline for learning a reinforcement learning policy πϕ that learns to generate mutations that outperform the input circuit in terms of a given performance metric (e.g. fidelity of recovered quantum state after compression). In broad strokes, there are three main steps in the pipeline: conversion from a quantum representation to classical, a policy update step and conversion of classical representation back to quantum representation. The first step in the pipeline is to convert a quantum representation into a classical representa- tion which can be used to train a deep neural network. In order to acheive this conversion, we first create an intermediate representation (IR) of a quantum circuit that we call a cell."
+    ],
+    "text_positions": [
+      [
+        63411,
+        64483
+      ]
+    ]
+  },
+  "2509.03496_1.png": {
+    "arxiv_number": "2509.03496",
+    "page_number": 7,
+    "figure_number": 1,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "ε). As a warm-up, we briefly introduce how to estimate the Tsallis entropy (of a quantum state ρ) via the Shift test [EAO+02] and then analyze the complexity. The Shift test allows us to use q samples of a quantum state ρ to produce a random variable x that relates to Sq(ρ). Specifically, let W be the main part of the Shift test as shown in Figure 1, then"
+    ],
+    "text_positions": [
+      [
+        15401,
+        15758
+      ]
+    ]
+  },
+  "2402.01243_1.png": {
+    "arxiv_number": "2402.01243",
+    "page_number": 6,
+    "figure_number": 3,
+    "quantum_gates": [
+      "CNOT",
+      "U"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "such that ˜Xd = Id×d. As such, we can think of the UCSUM gate as the qudit analog of the qubit Controlled- NOT gate: Depending on which state the control qudit is in, the second qudit will be subject to ˜X, ˜X2, · · · , ˜Xd = Id×d. We choose this UCSUM gate as our native gate, due to its similar universality [49] to the CNOT gate. That is, while we are relying on the fact that this gate has been implemented experimentally on transmons, due to its universality, it is expected to be achieved in other qudit-based systems as well. (Although, to the best of our knowledge, we are not aware of any experimental implementation of UCSUM in other platforms)."
+    ],
+    "text_positions": [
+      [
+        27340,
+        29403
+      ]
+    ]
+  },
+  "2506.09205_1.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 13,
+    "figure_number": 4,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 4: Optimal Variational Quantum Circuits for Breast cancer dataset"
+    ],
+    "text_positions": [
+      [
+        29343,
+        29415
+      ]
+    ]
+  },
+  "2506.09205_2.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 15,
+    "figure_number": 6,
+    "quantum_gates": [
+      "RY",
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "The Heart-Disease data set (Kaggle, LAPP 2024) comprises 918 patient records, each described by 13 clinical attributes such as age, resting-blood pressure, serum cholesterol, and exercise-induced angina. The binary target indicates the presence or absence of heart disease. Following the workflow of Section 4.1, the transformer front- end encodes the 13 features and feeds them to the genetic transformer-assisted QNN (GTQNN). The best circuit per generation is then retrained for 400 outer epochs, and its test accuracy is reported. Gate counts for the selected circuits appear in the second row of Table 4. The eight optimal variational circuits are depicted in Fig.6; With as few as 3 qubits (10 gates) the GTQNN already reaches an accuracy of"
+    ],
+    "text_positions": [
+      [
+        32170,
+        32917
+      ]
+    ]
+  },
+  "2506.09205_3.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 14,
+    "figure_number": 5,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "classification to the three digits 1,2 and 3. We flatten the pixels to a 784-dimensional vector, pass them through the transformer front-end described in Section 4.1, and feed the resulting feature vector to the genetic transformer-assisted QNN (GTQNN). The outer training loop is run for 500 epochs. The eight optimal variational circuits are depicted in Fig. 5; gate counts for each appear in the second row of Table 3. The GTQNN achieves accuracies between 0.973 (3 qubits, 8 gates) and 0.993 (8 qubits, 42 gates), staying above 0.95 for every qubit setting."
+    ],
+    "text_positions": [
+      [
+        30890,
+        32143
+      ]
+    ]
+  },
+  "2506.09205_4.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 13,
+    "figure_number": 4,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 4: Optimal Variational Quantum Circuits for Breast cancer dataset"
+    ],
+    "text_positions": [
+      [
+        29343,
+        29415
+      ]
+    ]
+  },
+  "2506.09205_5.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 13,
+    "figure_number": 4,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 4: Optimal Variational Quantum Circuits for Breast cancer dataset"
+    ],
+    "text_positions": [
+      [
+        29343,
+        29415
+      ]
+    ]
+  },
+  "2506.09205_6.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 14,
+    "figure_number": 5,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "classification to the three digits 1,2 and 3. We flatten the pixels to a 784-dimensional vector, pass them through the transformer front-end described in Section 4.1, and feed the resulting feature vector to the genetic transformer-assisted QNN (GTQNN). The outer training loop is run for 500 epochs. The eight optimal variational circuits are depicted in Fig. 5; gate counts for each appear in the second row of Table 3. The GTQNN achieves accuracies between 0.973 (3 qubits, 8 gates) and 0.993 (8 qubits, 42 gates), staying above 0.95 for every qubit setting."
+    ],
+    "text_positions": [
+      [
+        30890,
+        32143
+      ]
+    ]
+  },
+  "2506.09205_7.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 15,
+    "figure_number": 6,
+    "quantum_gates": [
+      "RY",
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "The Heart-Disease data set (Kaggle, LAPP 2024) comprises 918 patient records, each described by 13 clinical attributes such as age, resting-blood pressure, serum cholesterol, and exercise-induced angina. The binary target indicates the presence or absence of heart disease. Following the workflow of Section 4.1, the transformer front- end encodes the 13 features and feeds them to the genetic transformer-assisted QNN (GTQNN). The best circuit per generation is then retrained for 400 outer epochs, and its test accuracy is reported. Gate counts for the selected circuits appear in the second row of Table 4. The eight optimal variational circuits are depicted in Fig.6; With as few as 3 qubits (10 gates) the GTQNN already reaches an accuracy of"
+    ],
+    "text_positions": [
+      [
+        32170,
+        32917
+      ]
+    ]
+  },
+  "2506.09205_8.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 15,
+    "figure_number": 6,
+    "quantum_gates": [
+      "RY",
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "The Heart-Disease data set (Kaggle, LAPP 2024) comprises 918 patient records, each described by 13 clinical attributes such as age, resting-blood pressure, serum cholesterol, and exercise-induced angina. The binary target indicates the presence or absence of heart disease. Following the workflow of Section 4.1, the transformer front- end encodes the 13 features and feeds them to the genetic transformer-assisted QNN (GTQNN). The best circuit per generation is then retrained for 400 outer epochs, and its test accuracy is reported. Gate counts for the selected circuits appear in the second row of Table 4. The eight optimal variational circuits are depicted in Fig.6; With as few as 3 qubits (10 gates) the GTQNN already reaches an accuracy of"
+    ],
+    "text_positions": [
+      [
+        32170,
+        32917
+      ]
+    ]
+  },
+  "2506.09205_9.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 12,
+    "figure_number": 3,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 3: Optimal Variational Quantum Circuits for Iris dataset"
+    ],
+    "text_positions": [
+      [
+        27737,
+        27800
+      ]
+    ]
+  },
+  "2506.09205_10.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 15,
+    "figure_number": 6,
+    "quantum_gates": [
+      "RY",
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "The Heart-Disease data set (Kaggle, LAPP 2024) comprises 918 patient records, each described by 13 clinical attributes such as age, resting-blood pressure, serum cholesterol, and exercise-induced angina. The binary target indicates the presence or absence of heart disease. Following the workflow of Section 4.1, the transformer front- end encodes the 13 features and feeds them to the genetic transformer-assisted QNN (GTQNN). The best circuit per generation is then retrained for 400 outer epochs, and its test accuracy is reported. Gate counts for the selected circuits appear in the second row of Table 4. The eight optimal variational circuits are depicted in Fig.6; With as few as 3 qubits (10 gates) the GTQNN already reaches an accuracy of"
+    ],
+    "text_positions": [
+      [
+        32170,
+        32917
+      ]
+    ]
+  },
+  "2506.09205_11.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 13,
+    "figure_number": 4,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 4: Optimal Variational Quantum Circuits for Breast cancer dataset"
+    ],
+    "text_positions": [
+      [
+        29343,
+        29415
+      ]
+    ]
+  },
+  "2506.09205_12.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 15,
+    "figure_number": 6,
+    "quantum_gates": [
+      "RY",
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "The Heart-Disease data set (Kaggle, LAPP 2024) comprises 918 patient records, each described by 13 clinical attributes such as age, resting-blood pressure, serum cholesterol, and exercise-induced angina. The binary target indicates the presence or absence of heart disease. Following the workflow of Section 4.1, the transformer front- end encodes the 13 features and feeds them to the genetic transformer-assisted QNN (GTQNN). The best circuit per generation is then retrained for 400 outer epochs, and its test accuracy is reported. Gate counts for the selected circuits appear in the second row of Table 4. The eight optimal variational circuits are depicted in Fig.6; With as few as 3 qubits (10 gates) the GTQNN already reaches an accuracy of"
+    ],
+    "text_positions": [
+      [
+        32170,
+        32917
+      ]
+    ]
+  },
+  "2506.09205_13.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 12,
+    "figure_number": 3,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 3: Optimal Variational Quantum Circuits for Iris dataset"
+    ],
+    "text_positions": [
+      [
+        27737,
+        27800
+      ]
+    ]
+  },
+  "2506.09205_14.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 13,
+    "figure_number": 4,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 4: Optimal Variational Quantum Circuits for Breast cancer dataset"
+    ],
+    "text_positions": [
+      [
+        29343,
+        29415
+      ]
+    ]
+  },
+  "2506.09205_15.png": {
+    "arxiv_number": "2506.09205",
+    "page_number": 15,
+    "figure_number": 6,
+    "quantum_gates": [
+      "RY",
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "The Heart-Disease data set (Kaggle, LAPP 2024) comprises 918 patient records, each described by 13 clinical attributes such as age, resting-blood pressure, serum cholesterol, and exercise-induced angina. The binary target indicates the presence or absence of heart disease. Following the workflow of Section 4.1, the transformer front- end encodes the 13 features and feeds them to the genetic transformer-assisted QNN (GTQNN). The best circuit per generation is then retrained for 400 outer epochs, and its test accuracy is reported. Gate counts for the selected circuits appear in the second row of Table 4. The eight optimal variational circuits are depicted in Fig.6; With as few as 3 qubits (10 gates) the GTQNN already reaches an accuracy of"
+    ],
+    "text_positions": [
+      [
+        32170,
+        32917
+      ]
+    ]
+  },
+  "2503.08197_1.png": {
+    "arxiv_number": "2503.08197",
+    "page_number": 14,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "FIG. S8: Comparison of the first- and the second-order Trot- ter schemes."
+    ],
+    "text_positions": [
+      [
+        60358,
+        60637
+      ]
+    ]
+  },
+  "2502.04152_1.png": {
+    "arxiv_number": "2502.04152",
+    "page_number": 15,
+    "figure_number": 16,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 16: Second-largest eigenvalue λ1 of M and largest eigenvalue χ0 of ˜ M for different system sizes L for a kicked strongly interacting spinless fermionic chain in the absence of T -symmetry, and (a) with (∆= ∆′ = 0) and (b) without (∆= 0.4, ∆′ = 0) particle-number conservation. We use the Hamiltonian in Eq. (35) with parameters in Eqs. (45,46). We apply PBC in real space, and take half filling for ∆= ∆′ = 0. Here, J = 0.5 and g = 0.25."
+    ],
+    "text_positions": [
+      [
+        59809,
+        60252
+      ]
+    ]
+  },
+  "2401.15804_1.png": {
+    "arxiv_number": "2401.15804",
+    "page_number": 7,
+    "figure_number": 7,
+    "quantum_gates": [
+      "RX",
+      "RZ"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "The confusion matrix in Fig. 7 details class-specific predictive performance on the held-out test set. All three tumor classes—meningioma, glioma, and pituitary tu- mor—demonstrate strong performance, with recalls of ap- proximately 85.8%, 80.8%, and 97.0%, respectively. Pituitary tumors are classified with near-perfect precision and recall, confirming the model’s robustness in recognizing this class. In contrast, the primary misclassifications occur between meningioma and glioma, where the model shows reduced precision for meningioma (70.8%) due to frequent confusion with glioma. These errors likely stem from overlapping ra- diographic features between these two tumor types."
+    ],
+    "text_positions": [
+      [
+        28506,
+        29480
+      ]
+    ]
+  },
+  "2411.09762_1.png": {
+    "arxiv_number": "2411.09762",
+    "page_number": 11,
+    "figure_number": 3,
+    "quantum_gates": [
+      "M",
+      "T",
+      "U"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "Post-Trotter methods have recently been subject to ac- tive investigation in the context of simulating high-energy physics, owing to their near-optimal scaling with t and ϵ[64, 161, 169, 182], and, in certain cases, with ||H|| and the number of colors Nc[183]. However, comparing these methods with Trotterization is complicated by the fact that Trotterization often performs better than predicted by complexity bounds which can be notoriously challeng- ing to calculate. In this work, we focus on simulating time evolution via Trotterization, a conceptually simple approach that is potentially compatible with near-term devices."
+    ],
+    "text_positions": [
+      [
+        41595,
+        43810
+      ]
+    ]
+  },
+  "2403.16791_1.png": {
+    "arxiv_number": "2403.16791",
+    "page_number": 13,
+    "figure_number": 10,
+    "quantum_gates": [
+      "H",
+      "U"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "FIG. 10: (a) Circuit to evaluate ˆC0 and the ˆT † ˆT term in ˆC1 simultaneously, using an ancilla qubit to determine whether to apply a swap test for ˆC0 if the time is |0⟩, or a QNPU for ˆC1 otherwise. (b) Circuit to evaluate ˆC2, with an additional qubit for the time shift operator to make it non-periodic. This qubit represents the most significant bit of the adder. In these two figures, the notation QNPU(⃗θ) is used as a short-hand for the QNPU itself and any duplicates of the ansatz, which depends on ⃗θ, encoded on ancilla qubits. (c) Building blocks of QNPU circuits, with the ˆA operator red and the pointwise multiplication ˆc in blue."
+    ],
+    "text_positions": [
+      [
+        53009,
+        53958
+      ]
+    ]
+  },
+  "2403.16791_2.png": {
+    "arxiv_number": "2403.16791",
+    "page_number": 3,
+    "figure_number": 2,
+    "quantum_gates": [
+      "H",
+      "U"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "where ˆU(⃗θ) is a parametrizable quantum circuit of the forms shown in Fig. 2. We consider two different parametrizable quantum circuits as variational ansatz to find the ground state of the Hamiltonian ˆH. First, we consider a short and dense brickwall ansatz of var- ious depths, of which a single layer can be seen in Fig. 2a. The brickwall ansatz, also referred to as the checkerboard ansatz [46], is especially suited for NISQ devices [69]. It has been used before in the context of the Variational Quantum Eigensolver (VQE) [70] as well as simulations of quantum dynamics [71]. Second, we employ a tensor-inspired quantum matrix product state (MPS) ansatz, as seen in Fig. 2b."
+    ],
+    "text_positions": [
+      [
+        13915,
+        15426
+      ]
+    ]
+  },
+  "2403.16791_3.png": {
+    "arxiv_number": "2403.16791",
+    "page_number": 3,
+    "figure_number": 2,
+    "quantum_gates": [
+      "H",
+      "U"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "where ˆU(⃗θ) is a parametrizable quantum circuit of the forms shown in Fig. 2. We consider two different parametrizable quantum circuits as variational ansatz to find the ground state of the Hamiltonian ˆH. First, we consider a short and dense brickwall ansatz of var- ious depths, of which a single layer can be seen in Fig. 2a. The brickwall ansatz, also referred to as the checkerboard ansatz [46], is especially suited for NISQ devices [69]. It has been used before in the context of the Variational Quantum Eigensolver (VQE) [70] as well as simulations of quantum dynamics [71]. Second, we employ a tensor-inspired quantum matrix product state (MPS) ansatz, as seen in Fig. 2b."
+    ],
+    "text_positions": [
+      [
+        13915,
+        15426
+      ]
+    ]
+  },
+  "2403.16791_4.png": {
+    "arxiv_number": "2403.16791",
+    "page_number": 13,
+    "figure_number": 10,
+    "quantum_gates": [
+      "H",
+      "U"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "FIG. 10: (a) Circuit to evaluate ˆC0 and the ˆT † ˆT term in ˆC1 simultaneously, using an ancilla qubit to determine whether to apply a swap test for ˆC0 if the time is |0⟩, or a QNPU for ˆC1 otherwise. (b) Circuit to evaluate ˆC2, with an additional qubit for the time shift operator to make it non-periodic. This qubit represents the most significant bit of the adder. In these two figures, the notation QNPU(⃗θ) is used as a short-hand for the QNPU itself and any duplicates of the ansatz, which depends on ⃗θ, encoded on ancilla qubits. (c) Building blocks of QNPU circuits, with the ˆA operator red and the pointwise multiplication ˆc in blue."
+    ],
+    "text_positions": [
+      [
+        53009,
+        53958
+      ]
+    ]
+  },
+  "2509.20127_1.png": {
+    "arxiv_number": "2509.20127",
+    "page_number": 5,
+    "figure_number": 1,
+    "quantum_gates": [
+      "RZ",
+      "CNOT"
+    ],
+    "quantum_problem": "QAOA",
+    "descriptions": [
+      "for ai and bi,j coefficients specific to the problem. A HUBO is defined similarly to a QUBO, but allowing for higher-order terms. In general, to translate a problem from QUBO/HUBO form into an ansatz for QAOA, the binary variables are mapped to Ising spin variables zi ∈{−1, 1} by the bijective map zi = 2xi −1. The spin variables are then equivalent to Pauli Z Hamiltonians, which are exponentiated as in the QUBO case to give RZ(2θ) operators. The non-linear z1...zk entries map to multi-controlled RZ1...Zk(2θ) operators, consisting of sequences of CNOT gates pre- and post-pending an RZ(2θ) operator. These multi-controlled RZ operators are known as Phase Gadgets [33], and can be constructed in a variety of ways, as can be seen in Figure 1."
+    ],
+    "text_positions": [
+      [
+        11680,
+        13635
+      ]
+    ]
+  },
+  "2509.20127_2.png": {
+    "arxiv_number": "2509.20127",
+    "page_number": 5,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RZ",
+      "CNOT"
+    ],
+    "quantum_problem": "QAOA",
+    "descriptions": [
+      "longest term that is a subset of all of our terms (which is equivalent to being a subset of the most recently added term). This gives the grouping S = {x1x2x3x4, x1x2x4, x2x4}. By definition of the grouping, the CNOT construction for each term is a subset of the CNOT construction for the next longest term, meaning that the entire group requires only as many CNOT gates as the overall longest term in the group. An example for the set S is shown in Figure 2."
+    ],
+    "text_positions": [
+      [
+        13765,
+        14224
+      ]
+    ]
+  },
+  "2509.20127_3.png": {
+    "arxiv_number": "2509.20127",
+    "page_number": 5,
+    "figure_number": 1,
+    "quantum_gates": [
+      "RZ",
+      "CNOT"
+    ],
+    "quantum_problem": "QAOA",
+    "descriptions": [
+      "for ai and bi,j coefficients specific to the problem. A HUBO is defined similarly to a QUBO, but allowing for higher-order terms. In general, to translate a problem from QUBO/HUBO form into an ansatz for QAOA, the binary variables are mapped to Ising spin variables zi ∈{−1, 1} by the bijective map zi = 2xi −1. The spin variables are then equivalent to Pauli Z Hamiltonians, which are exponentiated as in the QUBO case to give RZ(2θ) operators. The non-linear z1...zk entries map to multi-controlled RZ1...Zk(2θ) operators, consisting of sequences of CNOT gates pre- and post-pending an RZ(2θ) operator. These multi-controlled RZ operators are known as Phase Gadgets [33], and can be constructed in a variety of ways, as can be seen in Figure 1."
+    ],
+    "text_positions": [
+      [
+        11680,
+        13635
+      ]
+    ]
+  },
+  "2509.20127_4.png": {
+    "arxiv_number": "2509.20127",
+    "page_number": 5,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RZ",
+      "CNOT"
+    ],
+    "quantum_problem": "QAOA",
+    "descriptions": [
+      "longest term that is a subset of all of our terms (which is equivalent to being a subset of the most recently added term). This gives the grouping S = {x1x2x3x4, x1x2x4, x2x4}. By definition of the grouping, the CNOT construction for each term is a subset of the CNOT construction for the next longest term, meaning that the entire group requires only as many CNOT gates as the overall longest term in the group. An example for the set S is shown in Figure 2."
+    ],
+    "text_positions": [
+      [
+        13765,
+        14224
+      ]
+    ]
+  },
+  "2408.02483_1.png": {
+    "arxiv_number": "2408.02483",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "SWAP",
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "We consider a 2 × 2 quantum MIMO communication channel between the Tx and the Rx as shown in the Fig. 1(a). The first effect in the channel that we con- sider is the crosstalk, parameterized by the parameter η ∈[0, 1]. This is modelled by a control-SWAP gate, also known as the Fredkin gate. The control qubit is part of the environment and is assumed to be in the state |c⟩env = √1 −η |0⟩+ √η |1⟩, as shown in Fig. 1(b). The"
+    ],
+    "text_positions": [
+      [
+        7142,
+        7567
+      ]
+    ]
+  },
+  "2509.10190_1.png": {
+    "arxiv_number": "2509.10190",
+    "page_number": 4,
+    "figure_number": 1,
+    "quantum_gates": [
+      "RY",
+      "U"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Fig. 1: The quantum circuit of the quantum ker- nel used for the implementation of the QSVM using a projector measurement. Each feature in a feature vector is encoded using y-rotation gates in the first unitary. The second unitary is the complex conjugate transpose of the first, but applied to a second feature vector. The num- ber of qubits equal the number of features, with two angle encoding unitaries before measurement. Measurement involves a projector measurement. The z-expectation value of the state is measured, projected to the zero-state density matrix."
+    ],
+    "text_positions": [
+      [
+        14837,
+        15403
+      ]
+    ]
+  },
+  "2501.16986_1.png": {
+    "arxiv_number": "2501.16986",
+    "page_number": 26,
+    "figure_number": null,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2501.16986_2.png": {
+    "arxiv_number": "2501.16986",
+    "page_number": 26,
+    "figure_number": null,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2501.16986_3.png": {
+    "arxiv_number": "2501.16986",
+    "page_number": 26,
+    "figure_number": null,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2409.03185_1.png": {
+    "arxiv_number": "2409.03185",
+    "page_number": 3,
+    "figure_number": 2,
+    "quantum_gates": [
+      "H",
+      "SWAP",
+      "M"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "The ability to move qubits is the most distinctive advantage of NA platforms [7], [5], [23]. In NA systems, qubits are captured in two types of traps (cf. Fig. 2). A spatial light modulator (SLM) generates an array of static traps, while a 2D acousto-optic deﬂector (AOD) creates mobile traps that can move within the plane. The AOD traps are formed at the intersection of a set of rows and columns. Atom movement is a high-ﬁdelity operation and an atom can traverse a region for 2,000 qubits with only 0.1% coherence time [5]. Fig."
+    ],
+    "text_positions": [
+      [
+        10642,
+        11527
+      ]
+    ]
+  },
+  "2401.09548_1.png": {
+    "arxiv_number": "2401.09548",
+    "page_number": 9,
+    "figure_number": 81,
+    "quantum_gates": [
+      "H",
+      "M"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2401.09548_2.png": {
+    "arxiv_number": "2401.09548",
+    "page_number": 10,
+    "figure_number": null,
+    "quantum_gates": [
+      "M",
+      "S"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Here M ′ is the tensor of the MPO representation of ρ with four sites in a unit cell. In the fully translation in- variant case, we have S = M 4 U. Since ρ is invariant under Xeven (Xodd), the action Xeven (Xodd) can be pushed to the virtual space, which will be denoted by Veven (Vodd). Importantly, Veven and Vodd must commute, otherwise the transfer matrix obtained by contracting the physical indices of M ′ would have degenerate spectrum, contra- dicting the short-range nature of ρ. Following steps very similar to those in Eq. (82), one can prove"
+    ],
+    "text_positions": [
+      [
+        36284,
+        36837
+      ]
+    ]
+  },
+  "2408.13352_1.png": {
+    "arxiv_number": "2408.13352",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RX",
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "In this section, we will demonstrate the efficacy of our approach using two distinct classification datasets. Broadly speaking, our technique successfully identifies and eliminates redundant parameters while maintaining a negligible effect on the QNN’s validation accuracy. The source code and results are available at https://github.com/aicaffeinelife/QAdaPrune.git. We perform experiments2 on the MNIST [19] and Fash- ionMNIST [20] datasets. For each of the datasets we create a subset where we take 500 front images from the training set and 300 randomly chosen images as the validation set. All images are first center-cropped to 24 × 24 and then down sampled to 4 × 4 image sizes. We consider a binary classification task for both datasets."
+    ],
+    "text_positions": [
+      [
+        13620,
+        15283
+      ]
+    ]
+  },
+  "2411.04270_1.png": {
+    "arxiv_number": "2411.04270",
+    "page_number": 18,
+    "figure_number": 7,
+    "quantum_gates": [
+      "M",
+      "RY",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "In the T-count-limited computation, the total runtime is dictated by the sequence of measurements required for each operation. When the reaction time is sufficiently fast, quantum teleportation can be used to parallelize non-commutable operations, accelerating computation [7]. Quantum teleportation enables multiple non-commutable operations to be performed simultaneously by teleporting qubit states to auxiliary qubits entangled as Bell pairs. The protocol for implementing this computation is shown in Fig. 7. It starts by constructing n adjacent core processors, each containing memory fabrics with 2Q logical data qubits. The first memory fabric holds the initial state |ψ⟩in half of its data qubits."
+    ],
+    "text_positions": [
+      [
+        65212,
+        67063
+      ]
+    ]
+  },
+  "2503.23443_1.png": {
+    "arxiv_number": "2503.23443",
+    "page_number": 24,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2503.23443_2.png": {
+    "arxiv_number": "2503.23443",
+    "page_number": 24,
+    "figure_number": null,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2503.23443_3.png": {
+    "arxiv_number": "2503.23443",
+    "page_number": 24,
+    "figure_number": null,
+    "quantum_gates": [
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 11: Variational quantum circuits."
+    ],
+    "text_positions": [
+      [
+        32589,
+        32629
+      ]
+    ]
+  },
+  "2503.23443_4.png": {
+    "arxiv_number": "2503.23443",
+    "page_number": 24,
+    "figure_number": null,
+    "quantum_gates": [
+      "RZ"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "C Variational quantum circuits"
+    ],
+    "text_positions": [
+      [
+        32491,
+        32521
+      ]
+    ]
+  },
+  "2503.23443_5.png": {
+    "arxiv_number": "2503.23443",
+    "page_number": 24,
+    "figure_number": null,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 11: Variational quantum circuits."
+    ],
+    "text_positions": [
+      [
+        32589,
+        32629
+      ]
+    ]
+  },
+  "2503.23443_6.png": {
+    "arxiv_number": "2503.23443",
+    "page_number": 24,
+    "figure_number": 11,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "2 ) = 1, while a separable state Q(|0, 0⟩) = 0. In this study, we examined 19 (see 11) distinct VQCs to evaluate and optimize their efficiency. By testing a diverse set of circuit architectures, we identified configurations that maximized the performance in generating entangled states. This comparative approach allowed us to pinpoint the VQC design yielding the highest efficiency for our objectives. According to Figure 8, it can be seen that in the one blocks, we need a smaller amount of entanglement for the quantum circuit in order to reach a high accuracy value."
+    ],
+    "text_positions": [
+      [
+        18693,
+        20007
+      ]
+    ]
+  },
+  "2503.23443_7.png": {
+    "arxiv_number": "2503.23443",
+    "page_number": 24,
+    "figure_number": null,
+    "quantum_gates": [
+      "RZ"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 11: Variational quantum circuits."
+    ],
+    "text_positions": [
+      [
+        32589,
+        32629
+      ]
+    ]
+  },
+  "2503.23443_8.png": {
+    "arxiv_number": "2503.23443",
+    "page_number": 8,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Alternatively, two-class registers are defined as i (q0, q1) and j (q2, q3) in Fig 3. Utilizing the ansatz U(⃗θ) for N = 4, the initial two qubits are assigned to register class one, while the subsequent two qubits are designated for another class."
+    ],
+    "text_positions": [
+      [
+        14665,
+        14913
+      ]
+    ]
+  },
+  "2503.23443_9.png": {
+    "arxiv_number": "2503.23443",
+    "page_number": 7,
+    "figure_number": 1,
+    "quantum_gates": [
+      "H",
+      "Y"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "This framework allows for the efficient detection of entangled and sepa- rable quantum states, paving the way for broader applications of QSVMs in quantum machine learning(see Fig. 1 )."
+    ],
+    "text_positions": [
+      [
+        12900,
+        13085
+      ]
+    ]
+  },
+  "2506.03094_1.png": {
+    "arxiv_number": "2506.03094",
+    "page_number": 5,
+    "figure_number": 2,
+    "quantum_gates": [
+      "M",
+      "T",
+      "U",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "In this section we provide explicit implementations of the bicycle architecture in Figure 2 using two specific bivariate bicycle codes, the gross code and the two-gross code. The approaches we present here represent our current proposals, but they will inevitably evolve over time. The bicycle architecture is based heavily around prior work on quantum LDPC surgery [Cro+24; WY24; Ide+24; SJY24] and can be considered an instantiation of the more general extractor architec- ture proposed by He et al. [He+25]. However, the present work and Ref. [He+25] have complementary objectives. Whereas Ref. [He+25] is focused on designing at a high-level an architecture applicable to any quantum LDPC code, here we focus on benchmarking an explicit and practical scheme for a specific set of example codes."
+    ],
+    "text_positions": [
+      [
+        19566,
+        21689
+      ]
+    ]
+  },
+  "2506.03094_2.png": {
+    "arxiv_number": "2506.03094",
+    "page_number": 22,
+    "figure_number": 4,
+    "quantum_gates": [
+      "CNOT",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "The first circuit diagram in Eq. (4) prepares each pivot (blue) in |0⟩using a Z measurement projection and leaves it untouched, while the second circuit prepares each pivot in |0⟩, involves it in nontrivial operations, and returns it to |0⟩at the end. Applying an X measurement projection to these pivots at the end of the second diagram does not affect the other qubits and yields the third circuit diagram. To obtain the fourth diagram, simply remove CNOTs targeting qubits measured in X, as their action is trivial up to Pauli corrections. Next, note that the red region in the fourth circuit in Eq. (4) prepares a GHZ state, which can equivalently be prepared as"
+    ],
+    "text_positions": [
+      [
+        67374,
+        68040
+      ]
+    ]
+  },
+  "2506.03094_3.png": {
+    "arxiv_number": "2506.03094",
+    "page_number": 22,
+    "figure_number": 6,
+    "quantum_gates": [
+      "CNOT",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "We find for the gross code and all measurement modes of the LPU that C syndrome cycles in the deformed code requires 9C + b timesteps, where b = 1, 2 depending on the mode. The coefficient of 9 is optimal because the maximum degree of check qubits and data qubits in the deformed codes is always 7. The b = 1, 2 values are concluded to be optimal also (assuming you have frozen the BB code schedule as we did), because when setting Tmax smaller than 10 or 11 respectively, the corresponding problems become infeasible. Solving Eq. (72) takes roughly a second for the gross code cases. We can take the optimization a step further."
+    ],
+    "text_positions": [
+      [
+        183758,
+        185518
+      ]
+    ]
+  },
+  "2506.03094_4.png": {
+    "arxiv_number": "2506.03094",
+    "page_number": 10,
+    "figure_number": 4,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Figure 4: (a) An example of the standard circuit for measuring a Pauli check using just one check qubit prepared in |+⟩and measured out in the X basis along with controlled-X and controlled-Z gates. We depict a Tanner (sub)graph on the left in which data qubits are drawn as circles, check qubits drawn as squares, and edges are color coded red and green to indicate Pauli X and Z support of the check, respectively. The connectivity of the Tanner graph matches the connectivity required for gates in the circuit. (b) A representative Tanner subgraph of a BB code as in Figure 3b with edges labeled with the timestep in which gates are scheduled. It should be understood that the Z check qubit is initialized in timestep 0 and measured in timestep 7."
+    ],
+    "text_positions": [
+      [
+        26232,
+        27604
+      ]
+    ]
+  },
+  "2506.03094_5.png": {
+    "arxiv_number": "2506.03094",
+    "page_number": 21,
+    "figure_number": 2,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "We then compute the resulting failure probability for the bicycle architecture using gross and two- gross codes at various physical error rates, p, and compare to the surface code architecture. We use the fits in Appendix A.7 to obtain the logical error rates and, for the two-gross, supplement missing values by using the assumed logical error rates listed in Table 2. The resulting logical error rates and failure probabilities rates of the augmented circuit (using Eq. (26)) are listed in Table 10. We then compute the intersection of the interpolating curve (of the form axb, for a, b ∈R) with the target failure probability 10−3. For the bicycle architecture using the gross code, we use the data points at p = 3 × 10−5 and p = 10−5 and obtain a necessary physical error rate of p ≤2.09 × 10−5."
+    ],
+    "text_positions": [
+      [
+        217996,
+        219415
+      ]
+    ]
+  },
+  "2409.03870_1.png": {
+    "arxiv_number": "2409.03870",
+    "page_number": 1,
+    "figure_number": 1,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "2.2 Practical Circuit Knitting Overheads Existent approaches to circuit knitting are in many cases non- practical due to at least the following overheads, which depends on the number of SWAPs and the number of cuttings. Circuit Depth and Routing Overhead (depends on #SWAPs). In Fig. 2, we report the sum of subcircuits depth before and after the qubit mapping and routing (step 2, in Fig. 1) targeting a specific hardware. From the graph, we can see that qubit mapping and routing increase the circuit depth from 1.4× to 2.8×, this is due to the SWAP insertions, each including 3 CNOT gates, which account for a large portion of each subcircuit after compilation."
+    ],
+    "text_positions": [
+      [
+        13050,
+        14510
+      ]
+    ]
+  },
+  "2408.06179_1.png": {
+    "arxiv_number": "2408.06179",
+    "page_number": 8,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "X",
+      "CNOT"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "2, X = σx, Y = iσy, S = diag(1, i) and available two-qubit controlled gates CRy(ζ), CR†(ξ), CNOT gate and controlled-phase gate, where Ry(ζ) = e−iζσy/2, R(ξ) = diag(1, eiξ) and ϕ′ = ϕ −ϕz. Meanwhile, we note that the basis states |Φi⟩, i = 0, 1, 2, 3, can be mutually transformed by local unitary operations U1 = (I ⊗σx)[R(2ϕ′ +π/2)⊗R†(2ϕ′ +π/2)](σx ⊗I) and U2 = σz ⊗σz, e.g., U1|Φ0⟩= −|Φ1⟩, U2|Φ0⟩= −|Φ2⟩, and U2U1|Φ0⟩= |Φ3⟩. So it is possible in principle to prepare any of the basis states characterized by parameters z, ϕ and θ based on the present quantum circuit by matching unitary operations U1 and U2. The quantum circuit for detecting the generalized three-parameter joint measurement is shown in Fig.3."
+    ],
+    "text_positions": [
+      [
+        19052,
+        20086
+      ]
+    ]
+  },
+  "2505.13524_1.png": {
+    "arxiv_number": "2505.13524",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RX",
+      "CNOT",
+      "Z"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "Figure 2: Structure of the variational quantum circuit (VQC) used in the QuantumChannelMixing module of QuantumRWKV. The circuit operates on 4 qubits and consists of two layers of angle-encoded RX(θ) rotations followed by full entangling layers implemented using CNOT gates in a ladder pattern. Each layer encodes the input features into quantum states, and the output is obtained by measuring the expectation values of the Pauli-Z operator on each qubit. Circuit weights are trained jointly with the rest of the model in an end-to-end fashion via backpropagation using the default.qubit simulator in PennyLane."
+    ],
+    "text_positions": [
+      [
+        10584,
+        11195
+      ]
+    ]
+  },
+  "2506.09151_1.png": {
+    "arxiv_number": "2506.09151",
+    "page_number": 86,
+    "figure_number": 52,
+    "quantum_gates": [
+      "CCX",
+      "RY"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "enables the parallelisation of rotations via controlled increments of the rotation angle. Following the presented implementation in Appendix VII.B of [123], the lookup stores the angles as a fixed-point binary fraction with q bits of precision, i.e. [θ0, θ1, ..., θq−1]. The rotation is then approximated by a series of controlled increments, where each controlled rotation increment activates according to the qth binary fraction in the lookup table. This is illustrated in Figure 52."
+    ],
+    "text_positions": [
+      [
+        244185,
+        244670
+      ]
+    ]
+  },
+  "2506.09151_2.png": {
+    "arxiv_number": "2506.09151",
+    "page_number": 44,
+    "figure_number": 25,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "Figure 25. Preparing a Uniform Superposition of CSFs. Each step is an application of H ⊗H to a qubit pair, followed by a measurement of the first qubit of the M register. The final state is the uniform superposition of valid step vectors |Ψ⟩given in Equation (30). The circuit succeeds with a probability of O(1/ √"
+    ],
+    "text_positions": [
+      [
+        133133,
+        133447
+      ]
+    ]
+  },
+  "2506.09151_3.png": {
+    "arxiv_number": "2506.09151",
+    "page_number": 48,
+    "figure_number": 28,
+    "quantum_gates": [
+      "M",
+      "S",
+      "U"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Figure 28. Encoding into a Decoherence-Free Subsystem. The inverse Paldus transform enables Alice (left) to protect her quantum state against unknown noise of the form U ⊗d, where each U = WV is a gate from Figures 20, 21. The noise affects the M component of the GT basis only (Equation (33)). Bob (right) recovers the state by applying the Paldus transform. The protocol gives a number of logical qubits which is asymptotically optimal."
+    ],
+    "text_positions": [
+      [
+        149080,
+        149518
+      ]
+    ]
+  },
+  "2506.09151_4.png": {
+    "arxiv_number": "2506.09151",
+    "page_number": 38,
+    "figure_number": 21,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "Figure 21. Decomposition of WV Gates (Equation (27)) Into a Quantum Circuit. Gates controlled on the |1⟩(|0⟩) state correspond to action in the {|01⟩, |10⟩} ({|00⟩, |11⟩}) subspace of |xi↑xi↓⟩. Ph(αN/2) = diag(eiαN /2, eiαN /2) ⊗|1⟩⟨1| is a controlled global phase gate. P(αN) = diag(1, eiαN ) ⊗|0⟩⟨0| is the standard controlled phase gate. This forms an example of a 2-qubit matchgate."
+    ],
+    "text_positions": [
+      [
+        116136,
+        116522
+      ]
+    ]
+  },
+  "2506.09151_5.png": {
+    "arxiv_number": "2506.09151",
+    "page_number": 82,
+    "figure_number": 45,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "When there are k −1 registers of q idling dirty qubits (already in some state |ψ⟩), they can be employed in a modified SELECTSWAP workflow with a single clean register and k −1 dirty registers. These dirty qubits are used for computation and then restored to their original state |ψ⟩i, which still results in an overall gate complexity comparable to unary iteration. This is illustrated in Figure 45. There are k −1 dirty qubit registers of q qubits."
+    ],
+    "text_positions": [
+      [
+        231973,
+        232423
+      ]
+    ]
+  },
+  "2506.09151_6.png": {
+    "arxiv_number": "2506.09151",
+    "page_number": 25,
+    "figure_number": 11,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "2}). With this choice, the Clebsch-Gordan coefficients appearing in the expressions form the elements of 2 × 2 rotation matrices R(θS,M), given by Equation (12) of Section II F 2. From these observations, we can see that the Clebsch-Gordan transform consists of updates on the (N, S, M) registers and rotations of the |xi↑xi↓⟩state. After updating M ′ to its outgoing value M, there is a sequence of controlled rotations, followed by an update of the N, S registers with an addition and subtraction controlled on the final two digits of d. The circuit for the CG transform, implementing the mapping defined in Equation (14) is illustrated in Figure 11. This performs the spin coupling shown in Figure 5, and is composed of four primary steps:"
+    ],
+    "text_positions": [
+      [
+        74181,
+        74923
+      ]
+    ]
+  },
+  "2506.09151_7.png": {
+    "arxiv_number": "2506.09151",
+    "page_number": 26,
+    "figure_number": 13,
+    "quantum_gates": [
+      "M",
+      "S"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "Clebsch-Gordan transform) multiplies the input states by the correct CG coefficients present in Equation (14), and outputs the step vector elements d2i−1d2i in place of the input occupation number register. These step vector elements are appended at the end of the incoming step vectors d, and denote the four different types of coupling which have taken place. They can then be used to update the S and N registers to their appropriate values (c.f. Table I) in steps 3 and 4. The gate G(θS,M) is illustrated in Figure 13."
+    ],
+    "text_positions": [
+      [
+        79311,
+        79833
+      ]
+    ]
+  },
+  "2506.09151_8.png": {
+    "arxiv_number": "2506.09151",
+    "page_number": 26,
+    "figure_number": 13,
+    "quantum_gates": [
+      "M",
+      "S"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "Clebsch-Gordan transform) multiplies the input states by the correct CG coefficients present in Equation (14), and outputs the step vector elements d2i−1d2i in place of the input occupation number register. These step vector elements are appended at the end of the incoming step vectors d, and denote the four different types of coupling which have taken place. They can then be used to update the S and N registers to their appropriate values (c.f. Table I) in steps 3 and 4. The gate G(θS,M) is illustrated in Figure 13."
+    ],
+    "text_positions": [
+      [
+        79311,
+        79833
+      ]
+    ]
+  },
+  "2503.05602_1.png": {
+    "arxiv_number": "2503.05602",
+    "page_number": 14,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "FIG. A5. Data encoding circuit Z embedding with n = 3 and L = 2 as implemented in sQUlearn [59]."
+    ],
+    "text_positions": [
+      [
+        65500,
+        65596
+      ]
+    ]
+  },
+  "2503.05602_2.png": {
+    "arxiv_number": "2503.05602",
+    "page_number": 13,
+    "figure_number": null,
+    "quantum_gates": [
+      "H",
+      "RX",
+      "RZ"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "FIG. A3. Data encoding circuit HZY_CZ from Ref. [24] with n = 3 and L = 1."
+    ],
+    "text_positions": [
+      [
+        64546,
+        64620
+      ]
+    ]
+  },
+  "2506.01666_1.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 3,
+    "figure_number": 1,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "Figure 1: Multimodal quantum circuit synthesis pipeline scheme. a) An input circuit is first tokenized and then embedded into two separate modes, from which the forward and backward diffusion processes are defined. b) Schematic of the generative model. See Section 3.1 and Section 3.2 for details."
+    ],
+    "text_positions": [
+      [
+        7857,
+        8154
+      ]
+    ]
+  },
+  "2506.01666_2.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 30,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "b) XXZ: J > 0, Δ > 0"
+    ],
+    "text_positions": [
+      [
+        86468,
+        86488
+      ]
+    ]
+  },
+  "2506.01666_3.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 29,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "b) Ising: J > 0, h = 0"
+    ],
+    "text_positions": [
+      [
+        85648,
+        85670
+      ]
+    ]
+  },
+  "2506.01666_4.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 30,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "b) XXZ: J > 0, Δ > 0"
+    ],
+    "text_positions": [
+      [
+        86468,
+        86488
+      ]
+    ]
+  },
+  "2506.01666_5.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2506.01666_6.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": 10,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "For the structures shown in Fig. 10, Fig. 11 and Fig. 12, we run GPE for a maximum of 250 iterations, or until there are no pairs left to be matched into a new token. We present structures for different token depths, where depth 0 is defined as the elementary tokens, being here the original gate set (e.g. h or cx). Then, depth 1 structures are gate-pairs (i.e. pairs of depth 0 tokens). Further, depth 2 tokens are constructed from at least one depth 1 token together with either one depth 1 or 0 token. More generally, a depth m token always consists of one depth m −1 token and another one with depth ≤m −1."
+    ],
+    "text_positions": [
+      [
+        84360,
+        84971
+      ]
+    ]
+  },
+  "2506.01666_7.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2506.01666_8.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2506.01666_9.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 30,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2506.01666_10.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 29,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "RX RX RX RX RX RX"
+    ],
+    "text_positions": [
+      [
+        85761,
+        85778
+      ]
+    ]
+  },
+  "2506.01666_11.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 29,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "b) Ising: J > 0, h = 0"
+    ],
+    "text_positions": [
+      [
+        85648,
+        85670
+      ]
+    ]
+  },
+  "2506.01666_12.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 29,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "RX RX RX RX RX RX"
+    ],
+    "text_positions": [
+      [
+        85761,
+        85778
+      ]
+    ]
+  },
+  "2506.01666_13.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 29,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "a) Ising: J = 0, h > 0"
+    ],
+    "text_positions": [
+      [
+        85625,
+        85647
+      ]
+    ]
+  },
+  "2506.01666_14.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 29,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "RX RX RX RX RX RX"
+    ],
+    "text_positions": [
+      [
+        85761,
+        85778
+      ]
+    ]
+  },
+  "2506.01666_15.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 29,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "RX RX RX RX RX RX"
+    ],
+    "text_positions": [
+      [
+        85761,
+        85778
+      ]
+    ]
+  },
+  "2506.01666_16.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 29,
+    "figure_number": 11,
+    "quantum_gates": [
+      "RZ"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "For the structures shown in Fig. 10, Fig. 11 and Fig. 12, we run GPE for a maximum of 250 iterations, or until there are no pairs left to be matched into a new token. We present structures for different token depths, where depth 0 is defined as the elementary tokens, being here the original gate set (e.g. h or cx). Then, depth 1 structures are gate-pairs (i.e. pairs of depth 0 tokens). Further, depth 2 tokens are constructed from at least one depth 1 token together with either one depth 1 or 0 token. More generally, a depth m token always consists of one depth m −1 token and another one with depth ≤m −1."
+    ],
+    "text_positions": [
+      [
+        84360,
+        84971
+      ]
+    ]
+  },
+  "2506.01666_17.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": 10,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "For the structures shown in Fig. 10, Fig. 11 and Fig. 12, we run GPE for a maximum of 250 iterations, or until there are no pairs left to be matched into a new token. We present structures for different token depths, where depth 0 is defined as the elementary tokens, being here the original gate set (e.g. h or cx). Then, depth 1 structures are gate-pairs (i.e. pairs of depth 0 tokens). Further, depth 2 tokens are constructed from at least one depth 1 token together with either one depth 1 or 0 token. More generally, a depth m token always consists of one depth m −1 token and another one with depth ≤m −1."
+    ],
+    "text_positions": [
+      [
+        84360,
+        84971
+      ]
+    ]
+  },
+  "2506.01666_18.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2506.01666_19.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2506.01666_20.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": 10,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "For the structures shown in Fig. 10, Fig. 11 and Fig. 12, we run GPE for a maximum of 250 iterations, or until there are no pairs left to be matched into a new token. We present structures for different token depths, where depth 0 is defined as the elementary tokens, being here the original gate set (e.g. h or cx). Then, depth 1 structures are gate-pairs (i.e. pairs of depth 0 tokens). Further, depth 2 tokens are constructed from at least one depth 1 token together with either one depth 1 or 0 token. More generally, a depth m token always consists of one depth m −1 token and another one with depth ≤m −1."
+    ],
+    "text_positions": [
+      [
+        84360,
+        84971
+      ]
+    ]
+  },
+  "2506.01666_21.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "a) QFT: 3 qubits"
+    ],
+    "text_positions": [
+      [
+        85132,
+        85148
+      ]
+    ]
+  },
+  "2506.01666_22.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2506.01666_23.png": {
+    "arxiv_number": "2506.01666",
+    "page_number": 28,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "b) QFT: 4 qubits"
+    ],
+    "text_positions": [
+      [
+        85149,
+        85165
+      ]
+    ]
+  },
+  "2507.14370_1.png": {
+    "arxiv_number": "2507.14370",
+    "page_number": 6,
+    "figure_number": 1,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Figure 1: Here ai ∈{0, 1, 2, 3} and bi, ci ∈{0, 1} represent the exponent of the gate above. bi, ci only require two values since the other powers are equivalent up to Clifford diagonal gates. We have included a permutation from the relevant affine equivalence class to illustrate how the equivalence classes interact."
+    ],
+    "text_positions": [
+      [
+        14403,
+        14721
+      ]
+    ]
+  },
+  "2507.14370_2.png": {
+    "arxiv_number": "2507.14370",
+    "page_number": 6,
+    "figure_number": 2,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Figure 2: Here ai ∈{0, 1, 2, 3} and bi, ci ∈{0, 1} represent the exponent of the gate above. bi, ci only require two values since the other powers are equivalent up to Clifford diagonal gates. We have 4424 = 4096 classes to check. Note, we have included a permutation from the relevant affine equivalence class to illustrate how the equivalence classes interact."
+    ],
+    "text_positions": [
+      [
+        15545,
+        15907
+      ]
+    ]
+  },
+  "2507.14370_3.png": {
+    "arxiv_number": "2507.14370",
+    "page_number": 5,
+    "figure_number": 1,
+    "quantum_gates": [
+      "T"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Figure 1: Here ai ∈{0, 1, 2, 3} and bi, ci ∈{0, 1} represent the exponent of the gate above. bi, ci only require two values since the other powers are equivalent up to Clifford diagonal gates. We have included a permutation from the relevant affine equivalence class to illustrate how the equivalence classes interact."
+    ],
+    "text_positions": [
+      [
+        14403,
+        14721
+      ]
+    ]
+  },
+  "2409.12104_1.png": {
+    "arxiv_number": "2409.12104",
+    "page_number": 15,
+    "figure_number": 8,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Error detection blocks of the Iceberg code. The ini- tialization in Fig. 7, taken from [70], prepares all logical qubits in the initial logical state |¯+⟩⊗k. If any of the two ancilla measurements (indicated in red) is −1, an error is detected and the circuit is discarded. The syn- drome measurement in Fig. 8 and the final measurement in Fig. 9 were taken from [19]. Both circuits measure the two Iceberg code stabilizers in order to detect er- rors, indicated again by excited ancilla measurements. The measurement of the SZ stabilizer is performed in the post-process of the n destructive measurement out- comes of the code qubits, where its value is the parity of the outputs. If no errors are detected, the logical out- comes are extracted as well from pairwise parities."
+    ],
+    "text_positions": [
+      [
+        67945,
+        69039
+      ]
+    ]
+  },
+  "2506.03453_1.png": {
+    "arxiv_number": "2506.03453",
+    "page_number": 7,
+    "figure_number": 20,
+    "quantum_gates": [
+      "RZ",
+      "T"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "6 Note that F and F † both implement the transformations in Eq.(20), and therefore they are interchangeable in Eq.(22), i.e. any combinations of F and F † in Eq.(22) produce Eq.(23). However, different combinations transform state |Ψ+⟩⊗|0⟩osc differently, which means the A-gate required to remove this effect will be different. Therefore, this choice is relevant for determining the most optimal A-gate. (See Appendix (K 4) for details.)"
+    ],
+    "text_positions": [
+      [
+        37699,
+        38137
+      ]
+    ]
+  },
+  "2506.03453_2.png": {
+    "arxiv_number": "2506.03453",
+    "page_number": 11,
+    "figure_number": 2,
+    "quantum_gates": [
+      "T",
+      "SWAP"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "2 ⟩osc. Then, by Lemma 6, we con- clude that there exists an element of Vz that implements this transformation. This protocol is exact and consists solely of unitary time evolution under the TC interaction and a global z field. Figure 2 shows an explicit construction of a 2-qubit Vqub.↔osc., with further details provided in Appendix (L). One application of this technique is state preparation for the oscillator. Recall that, according to Corollary 2, starting from the state |0⟩⊗n using HTC along with global x and z fields, we can generate any state in the symmetric subspace Hsym. When combined with the universal qubit-oscillator SWAP gate de- scribed above, this allows us to prepare the oscillator in an arbitrary state with up to n excitations."
+    ],
+    "text_positions": [
+      [
+        50269,
+        51501
+      ]
+    ]
+  },
+  "2410.21125_1.png": {
+    "arxiv_number": "2410.21125",
+    "page_number": 8,
+    "figure_number": 5,
+    "quantum_gates": [
+      "H",
+      "Y"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "To perform noisy simulation, we use a simple noise model, where we add a depolarizing channel after state preparation circuit and bit-flip channel before stabilizer measurement. An illustration of the circuits used in these simulation is shown in Fig. 5. The gates marked in red color represent the depolarizing channel on the data qubits and bit-flip channel on the ancilla qubits. In all the simulations, we fixed bit-flip probability to be half the depolarizing probability. All other operations in these circuits are ideal. The actual circuit is shown in the Appendix V E. Using the circuits in Fig. 5, we prepare noisy states and calculate the overlap with the ideal states for dif- ferent error probabilities."
+    ],
+    "text_positions": [
+      [
+        27039,
+        28334
+      ]
+    ]
+  },
+  "2410.21125_2.png": {
+    "arxiv_number": "2410.21125",
+    "page_number": 5,
+    "figure_number": 2,
+    "quantum_gates": [
+      "H",
+      "Y"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "where x and y are real amplitudes and x2 + y2 = 1. We do this by adding an extra gate, a single qubit rotation gate around the Y-axis, Ry(θ) (depicted by the orange box in Fig. 2) on the ancilla qubit. The parameter, θ, can be optimized to minimize the energy corresponding to the state. We use full stabilizer CI algorithm (Sec. III A) for find- ing the stabilizer approximation to the ground state of these molecules. We also find the generalized stabilizer states corresponding to the best stabilizer states by fol- lowing the procedure in Sec. III D. The results from the different numerical experiments are presented in Fig. 3 and Fig. 4."
+    ],
+    "text_positions": [
+      [
+        17169,
+        17812
+      ]
+    ]
+  },
+  "2410.21125_3.png": {
+    "arxiv_number": "2410.21125",
+    "page_number": 4,
+    "figure_number": 1,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "where H(a) is the Hadamard gate acting on the an- cilla qubit-a and CNOT(a, ki) is the Controlled-NOT gate with a being the control qubit and ki being the target qubit. A schematic depiction of U is shown in Fig. 1. It can be seen that U(|0⟩⊗|ψ ′ s⟩) = 1/ √"
+    ],
+    "text_positions": [
+      [
+        16130,
+        16387
+      ]
+    ]
+  },
+  "2409.19496_1.png": {
+    "arxiv_number": "2409.19496",
+    "page_number": 9,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Based on analyses (i) through (v), it is evident that the required numbers of c ˆG(p) and zero-c ˆH gates are g −2 and m −1, respectively. Therefore, the CNOT count of our algorithm is g + m −3, confirming the Result 1. Notably, CASE III demands the highest count of CNOT gates. Consequently, the total number of CNOT gates employed in our algorithm does not exceed 2n −3. This result shows the improvement compared to Ref. [25] and is consistent with the very recent result in Ref. [26]. However, note that our approach is more efficient than as we can implement the c ˆG(p) gate using only one CNOT, as in Fig. 2(b). To emphasize, such a single-CNOT c ˆG(p) gate implementation is possible when the target input is in |0⟩, which is suitable for our algorithm (see Note added)."
+    ],
+    "text_positions": [
+      [
+        20158,
+        22314
+      ]
+    ]
+  },
+  "2409.19496_2.png": {
+    "arxiv_number": "2409.19496",
+    "page_number": 9,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Based on analyses (i) through (v), it is evident that the required numbers of c ˆG(p) and zero-c ˆH gates are g −2 and m −1, respectively. Therefore, the CNOT count of our algorithm is g + m −3, confirming the Result 1. Notably, CASE III demands the highest count of CNOT gates. Consequently, the total number of CNOT gates employed in our algorithm does not exceed 2n −3. This result shows the improvement compared to Ref. [25] and is consistent with the very recent result in Ref. [26]. However, note that our approach is more efficient than as we can implement the c ˆG(p) gate using only one CNOT, as in Fig. 2(b). To emphasize, such a single-CNOT c ˆG(p) gate implementation is possible when the target input is in |0⟩, which is suitable for our algorithm (see Note added)."
+    ],
+    "text_positions": [
+      [
+        20158,
+        22314
+      ]
+    ]
+  },
+  "2409.19496_3.png": {
+    "arxiv_number": "2409.19496",
+    "page_number": 9,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Based on analyses (i) through (v), it is evident that the required numbers of c ˆG(p) and zero-c ˆH gates are g −2 and m −1, respectively. Therefore, the CNOT count of our algorithm is g + m −3, confirming the Result 1. Notably, CASE III demands the highest count of CNOT gates. Consequently, the total number of CNOT gates employed in our algorithm does not exceed 2n −3. This result shows the improvement compared to Ref. [25] and is consistent with the very recent result in Ref. [26]. However, note that our approach is more efficient than as we can implement the c ˆG(p) gate using only one CNOT, as in Fig. 2(b). To emphasize, such a single-CNOT c ˆG(p) gate implementation is possible when the target input is in |0⟩, which is suitable for our algorithm (see Note added)."
+    ],
+    "text_positions": [
+      [
+        20158,
+        22314
+      ]
+    ]
+  },
+  "2409.19496_4.png": {
+    "arxiv_number": "2409.19496",
+    "page_number": 9,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Based on analyses (i) through (v), it is evident that the required numbers of c ˆG(p) and zero-c ˆH gates are g −2 and m −1, respectively. Therefore, the CNOT count of our algorithm is g + m −3, confirming the Result 1. Notably, CASE III demands the highest count of CNOT gates. Consequently, the total number of CNOT gates employed in our algorithm does not exceed 2n −3. This result shows the improvement compared to Ref. [25] and is consistent with the very recent result in Ref. [26]. However, note that our approach is more efficient than as we can implement the c ˆG(p) gate using only one CNOT, as in Fig. 2(b). To emphasize, such a single-CNOT c ˆG(p) gate implementation is possible when the target input is in |0⟩, which is suitable for our algorithm (see Note added)."
+    ],
+    "text_positions": [
+      [
+        20158,
+        22314
+      ]
+    ]
+  },
+  "2409.17595_1.png": {
+    "arxiv_number": "2409.17595",
+    "page_number": 27,
+    "figure_number": 22,
+    "quantum_gates": [
+      "H",
+      "S",
+      "T"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Figure 22: Danger of using S as a proxy for T. A simple example of why Assumption 3.1 doesn’t hold in general. Replacing Z or S gates with T gates can cause a circuit to behave very differently. Click here to open this circuit in Quirk."
+    ],
+    "text_positions": [
+      [
+        73261,
+        73497
+      ]
+    ]
+  },
+  "2403.19068_1.png": {
+    "arxiv_number": "2403.19068",
+    "page_number": 6,
+    "figure_number": 8,
+    "quantum_gates": [
+      "M",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 8. Fusion of domain walls. (a) Fusion of charge domain walls. (b) Fusion of flux domain walls. (c) Fusion of a charge with a projective domain wall into the same projective domain wall between SPT phases. (d) Fusion of a flux domain wall with a q domain wall from SB to SPT phase into the same q domain wall. (e) A q and p domain wall fuse into a q′ domain wall with a degeneracy given by the p domain wall. (f) A ¯q and q′ domain wall fuse into a p domain wall with a degeneracy given by the SB phase. (g) A q and ¯q domain wall fuse into all possible flux domain walls."
+    ],
+    "text_positions": [
+      [
+        23024,
+        23600
+      ]
+    ]
+  },
+  "2403.19068_2.png": {
+    "arxiv_number": "2403.19068",
+    "page_number": 3,
+    "figure_number": 2,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "In fermion systems, the domain wall between the Majorana chain and a trivial chain contains a Majorana zero mode. When an SPT phase is connected to a symmetry- breaking phase, the edge mode of the SPT phase can be coupled to the order parameters in the symmetry- breaking phase, thereby hiding the degeneracy of the projective edge mode behind the bulk degeneracy in the symmetry-breaking phase. This is shown in Fig. 2 (d) with a solid point and is denoted by q. If the SPT phase is on the left-hand side and the symmetry-breaking phase on the right-hand side, we denote the domain wall as ¯q. For example, between the cluster state at i ≤0 and the"
+    ],
+    "text_positions": [
+      [
+        12471,
+        13120
+      ]
+    ]
+  },
+  "2403.19068_3.png": {
+    "arxiv_number": "2403.19068",
+    "page_number": 11,
+    "figure_number": 12,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 12. Fusion of phases 1 and 2 separated by a domain wall a and phases 3 and 4 separated by a domain wall b. We can first separate the domain walls a bit to the left and right, which doesn’t change anything. Then we fuse the two systems on either side of the dotted line independently (each containing only one domain wall). This results in a 1D system with two domain walls a′ and b′ separated by an intermediate phase (2 × 3), which can then be fused into one domain wall c. For simplicity, we do not draw fusion coefficients, degeneracy, or sums over domain walls, all of which are possible in general."
+    ],
+    "text_positions": [
+      [
+        38168,
+        38776
+      ]
+    ]
+  },
+  "2403.19068_4.png": {
+    "arxiv_number": "2403.19068",
+    "page_number": 9,
+    "figure_number": 9,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 9. Fusion of 1D gapped phases with domain walls. (a) SPT phases and their charge domain walls fuse according to their additive group structure. (b) Fusion of SB phase with a flux domain wall and SPT phase with a charge domain wall results in SB phase with a flux domain wall. (c) Fusion of two SB phases with or without domain walls; the dashed line is the fusion coefficient. (d) Fusion of SB phase with two segments of SPT phases with a projective domain wall in between; np is the degeneracy of the projective domain wall. (e) Fusion of a chain half in SB phase and half in SPT phase with a SB chain results in a SB chain with all possible flux domain walls summed over. The dotted line between the domain wall and the fusion coefficient indicate their coupling."
+    ],
+    "text_positions": [
+      [
+        31220,
+        32043
+      ]
+    ]
+  },
+  "2409.10807_1.png": {
+    "arxiv_number": "2409.10807",
+    "page_number": 3,
+    "figure_number": 1,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "i |αi|2 = 1. In reality, however, near-term quan- tum computers are often characterized by a limited num- ber of qubits in the range of a couple of dozens to a cou- ple of hundreds, a restricted qubit connectivity, denoted by its topology (see Fig. 1), and a heterogeneous qubit quality with relatively short coherence times [18]. Decoherence, imperfect quantum gates, and measure- ments lead to errors during the computation of a quan- tum algorithm [28]. In addition, qubits typically ex- hibit a heterogeneous quality, leading to varying coher- ence times, quantum gate durations, and errors on the same device and time step [29]. As an example, in the 27-qubit near-term IBM quantum computer used in the evaluation section of this paper, the coherence time of the qubits varies from 0."
+    ],
+    "text_positions": [
+      [
+        5954,
+        7197
+      ]
+    ]
+  },
+  "2411.04185_1.png": {
+    "arxiv_number": "2411.04185",
+    "page_number": 24,
+    "figure_number": 12,
+    "quantum_gates": [
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "where γ is the desired charge conjugation boundary, s is a paramagnetic degree of freedom lying on the boundary γ, vs is the neighboring toric code degree of freedom just outside the boundary (see Fig. 12), and η(e) = +1(−1) if vs lies on the left (right) side of the plaquette corresponding to s. We have partially derived the example unitary circuit. However, the above finite-depth circuit acts on both pre- gauged sites and gauged vertices; in the experiment, we only have access to the gauged toric code degrees of freedom. To circumvent this issue, we use the one-dimensional counterpart of the Z3 gauging map to access the necessary pre-gauged sites."
+    ],
+    "text_positions": [
+      [
+        74299,
+        75391
+      ]
+    ]
+  },
+  "2411.04185_2.png": {
+    "arxiv_number": "2411.04185",
+    "page_number": 28,
+    "figure_number": null,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2403.08712_1.png": {
+    "arxiv_number": "2403.08712",
+    "page_number": 5,
+    "figure_number": 1,
+    "quantum_gates": [
+      "H",
+      "M",
+      "S",
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Figure 1: (Color online) A schematic which represents first two steps of the CJRIO protocol. A circle with V, H represents photon simultaneously in vertical and horizontal polarization and circle with V only represents photon in vertical polarization. The two (one) lines attached with circles represent photons having two spatial paths simultaneously (photons having one path only). The cross-kerr nonlinear interaction between a photon path and the coherent state is attached by a line with a bold dot on the photon path. The dimensionless parameter θ determines the change of phase of the CS brought about by the cross- kerr interaction. The double arrow from the coherent state represents measurement outcomes. Vertical solid (dashed) line represents entanglement in P-DOF (S-DOF)."
+    ],
+    "text_positions": [
+      [
+        18790,
+        20044
+      ]
+    ]
+  },
+  "2403.08712_2.png": {
+    "arxiv_number": "2403.08712",
+    "page_number": 6,
+    "figure_number": 2,
+    "quantum_gates": [
+      "H",
+      "S",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Figure 2: (Color online) A schematic which represents Step3 and Step4 of the CJRIO protocol. Here, controller Charlie first mixes her photon paths on a BBS and allows the interaction Kck (θ)|z〉|ck〉and measures the CS, whose measurement outcome is s, which disentangles photon C from remaining photons in S-DOF. After that Bob1 mixes his photon paths on a BBS and allows the interaction Kb 1 k (θ)|z〉|b 1 k 〉and measures the CS, whose measurement outcome is l , which allows Bob2 to apply appropriate unitaries to get αB 2|b 2 0 〉+ βB 2|b 2 1 〉."
+    ],
+    "text_positions": [
+      [
+        20104,
+        20648
+      ]
+    ]
+  },
+  "2502.16132_1.png": {
+    "arxiv_number": "2502.16132",
+    "page_number": 13,
+    "figure_number": 5,
+    "quantum_gates": [
+      "H",
+      "M",
+      "S"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "r-EC, the error correction gadget at level r, consists simply of repeat Hookless measurements of the outer stabilizers of Cr. That is, we measure all the sr stabilizers of the underlying Hamming codes Hr+5 within Cr, and repeated said measurements 3 times (see Fig. 5). We claim that 3 repetitions are enough to recover any effective single-qubit errors, or single- faults, occurring on the input r-block to the gadget or during the execution of r-EC; a claim we make precise and prove only in Section 6. Here, we emphasize that our goal is to only correct one error/fault. Thereby, the intuition is that comparing the stabilizers between each round of Hookless"
+    ],
+    "text_positions": [
+      [
+        35896,
+        36557
+      ]
+    ]
+  },
+  "2502.16132_2.png": {
+    "arxiv_number": "2502.16132",
+    "page_number": 17,
+    "figure_number": 9,
+    "quantum_gates": [
+      "M",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "It remains to discuss the base case. At the physical level, there are three roles that qubits play: data, measurement, and entangling. Cat states are stored using the measurement qubits and created with assistance from the entangling qubits. The main challenge to implement the (hardened) cat state creation in 1D is that it shouldn’t involve the data qubits, but it has to cross over data qubits. If next-nearest-neighbor connectivity was allowed, the data qubits could simply be bypassed. We recommend the reader content with next-nearest-neighbor connectivity to skip ahead; to achieve nearest-neighbor connectivity, we require a painstaking construction and analysis of the base case circuits."
+    ],
+    "text_positions": [
+      [
+        42683,
+        43783
+      ]
+    ]
+  },
+  "2407.10893_1.png": {
+    "arxiv_number": "2407.10893",
+    "page_number": 7,
+    "figure_number": 1,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 1: Experimental setups of pairwise fusion gates (PFGs) for time-bin qudits (a) without ancilla photons and (b) with two photons in a high-dimensional Bell state."
+    ],
+    "text_positions": [
+      [
+        5616,
+        5782
+      ]
+    ]
+  },
+  "2507.03999_1.png": {
+    "arxiv_number": "2507.03999",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "U",
+      "U2"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Fig. 1). The measurement time and phase feedback in QPE can be understood if all the eigenvalues can be approximated by m-bit binary numbers. The outcome ϑi of the i-th measurement gives the estimation of the (m −i + 1)-th bit in the binary expansion. Thus, a sin- gle binary number ϑ = 0.ϑm...ϑ2ϑ1 determined by all the measurement results {ϑ1, ϑ2, ...ϑm} represents an ap- proximation of vk/κ. We can exactly solve the dynamics of bosonic modes in adaptive QPE with the framework of quantum channels [41]. Each RIM cycle induces a quantum channel on the target system [42]"
+    ],
+    "text_positions": [
+      [
+        7278,
+        7852
+      ]
+    ]
+  },
+  "2508.04880_1.png": {
+    "arxiv_number": "2508.04880",
+    "page_number": 4,
+    "figure_number": 4,
+    "quantum_gates": [
+      "H",
+      "T",
+      "X",
+      "Y",
+      "Z"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "Fig. 4. ER tallying Overview: All the stochastic noise channels in the circuit are sampled to obtain the exact error-realization (ER) for each channel and the combined ER of the circuit. If the ER ei occurs si times, then the corresponding circuit ci, is simulated once, and its output vector is sampled si times. This is in contrast to the naive approach (taken by simulators like Qiskit Statevector Simulator), where the simulation is performed si times and the output vector sampled once per simulation."
+    ],
+    "text_positions": [
+      [
+        19486,
+        19992
+      ]
+    ]
+  },
+  "2502.20254_1.png": {
+    "arxiv_number": "2502.20254",
+    "page_number": 8,
+    "figure_number": 4,
+    "quantum_gates": [
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "an eigenstate of Sold with eigenvalue +1 to an eigenstate of Snew with the same eigenvalue. Specifically, since Sold and Snew anticommute, the product iSnewSold is Hermitian, mo- tivating the construction of e π 4 SnewSold. Applying this oper- ator achieves the desired state transformation. In the qudit case, however, the stabilizers are no longer Hermitian, and this strategy breaks down. The lack of Hermiticity introduces sig- nificant complications in constructing the unitary operator de- fined in Eq. (10), making the generalization highly non-trivial. The two-qutrit operators Uh and Uv belong to the Clifford group, meaning they can be realized with a universal set of qutrit gates. The specific circuit for realizing Uv operator is shown in Fig."
+    ],
+    "text_positions": [
+      [
+        32572,
+        33485
+      ]
+    ]
+  },
+  "2502.20254_2.png": {
+    "arxiv_number": "2502.20254",
+    "page_number": 8,
+    "figure_number": 4,
+    "quantum_gates": [
+      "CZ",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "an eigenstate of Sold with eigenvalue +1 to an eigenstate of Snew with the same eigenvalue. Specifically, since Sold and Snew anticommute, the product iSnewSold is Hermitian, mo- tivating the construction of e π 4 SnewSold. Applying this oper- ator achieves the desired state transformation. In the qudit case, however, the stabilizers are no longer Hermitian, and this strategy breaks down. The lack of Hermiticity introduces sig- nificant complications in constructing the unitary operator de- fined in Eq. (10), making the generalization highly non-trivial. The two-qutrit operators Uh and Uv belong to the Clifford group, meaning they can be realized with a universal set of qutrit gates. The specific circuit for realizing Uv operator is shown in Fig."
+    ],
+    "text_positions": [
+      [
+        32572,
+        33485
+      ]
+    ]
+  },
+  "2407.13858_1.png": {
+    "arxiv_number": "2407.13858",
+    "page_number": 7,
+    "figure_number": 1,
+    "quantum_gates": [
+      "U",
+      "Y"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Figure 1. Quantum Learning Model. Quantum data labeled by classical variables is processed using a parameterized quantum circuit U(θ), followed by a POVM {Λˆy} to predict labels. The model aims to find an optimal parameter by minimizing the average per-sample expected loss ¯L(θ)."
+    ],
+    "text_positions": [
+      [
+        17452,
+        17732
+      ]
+    ]
+  },
+  "2407.13858_2.png": {
+    "arxiv_number": "2407.13858",
+    "page_number": 49,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX",
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "Optimization_Problems",
+    "descriptions": [
+      "RZ rotations to every qubit, and each of these parameterized layers is followed by an entangling layer."
+    ],
+    "text_positions": [
+      [
+        109242,
+        109345
+      ]
+    ]
+  },
+  "2409.13008_1.png": {
+    "arxiv_number": "2409.13008",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "RX",
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "uations of the circuit; this is in contrast to the exact case which only required a single execution to compute the value and gradient of the expectation value. Secondly, as an estimation of the expectation value can only be as accurate, or less accurate, than the exact value, the es- timations of the gradient of the expectation value with respect to the circuit angles can only be equal to, or less accurate, than the exact case. Given this, then, it is nat- ural to assume that with likely many sub-optimal estima- tions of the gradient, the optimization procedure would take longer and require more evaluations of the quantum circuit. Both of these factors will contribute to the in- creased runtime of the VQE procedure."
+    ],
+    "text_positions": [
+      [
+        44159,
+        47382
+      ]
+    ]
+  },
+  "2403.04297_1.png": {
+    "arxiv_number": "2403.04297",
+    "page_number": 12,
+    "figure_number": 7,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "qubits are affected. Therefore, we need to combine the decoding process (the inverse process of encoding shown in Figure 7), transfer errors to redundant qubits, and measure them. By combining the results of syndrome measure- ments with those of the redundant qubits, we can uniquely identify the error propagation caused by a specific quantum operation and correct it. A com- plete fault-tolerant encoding and decoding circuit based on Steane code is shown in Figure 10 (the part related to the algorithmic fault-tolerant quan- tum gates and auxiliary quantum gates with flag qubits is not shown). Here, the part marked in green is the decoding CNOT operations, and the framed part is the fault-tolerant syndrome measurement that will not cause error propagation."
+    ],
+    "text_positions": [
+      [
+        28196,
+        29227
+      ]
+    ]
+  },
+  "2403.04297_2.png": {
+    "arxiv_number": "2403.04297",
+    "page_number": 14,
+    "figure_number": 8,
+    "quantum_gates": [
+      "H",
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "If there are no errors, our measurement result is a random Hamming codeword and does not reveal the data information; if a physical qubit occurs an error, the check matrix H in formula 3 can be used to detect which qubit is in error. The same procedure is performed in a rotated basis to find the phase flip syndrome. Compared with Shor’s method [17], Steane’s method only requires 14 auxiliary qubits and 14 CNOT gates, reducing the number of CNOT gates. The preparation process of |Steane⟩is shown in Figure 8."
+    ],
+    "text_positions": [
+      [
+        25223,
+        25735
+      ]
+    ]
+  },
+  "2403.04297_3.png": {
+    "arxiv_number": "2403.04297",
+    "page_number": 8,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "S",
+      "T"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "putation. The computational complexity of an algorithm is reduced to the number of CNOT gates [42]. Considering the universal quantum gates in an ion trap quantum computer, the running time of a single-qubit quantum gate is much less than that of a double-qubit quantum gate [45, 46], so it is sufficient to analyze the CNOT gates. In our FTQC scheme, as shown in Figure 10, an encoded block requires at least 36 CNOT gates, and we intro- duce the \"flag qubits\" scheme, which requires 16 CNOT gates. Combined with our simulation results, for quantum gates that can be directly imple- mented transversally, an encoded block without using concatenated codes in one error-correction period requires at least 52 CNOT gates."
+    ],
+    "text_positions": [
+      [
+        67967,
+        70707
+      ]
+    ]
+  },
+  "2403.04297_4.png": {
+    "arxiv_number": "2403.04297",
+    "page_number": 21,
+    "figure_number": 12,
+    "quantum_gates": [
+      "T",
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "that of ZH1 = ZC 3 = ZC 4 = ZC 5 = ZT 4 (see Z-type Error). Since we have assumed that ZT 3 and ZT 5 are perfect, the Z-type error on the control qubit of CN1 or CN2 can be detected. Similarly, the Z-type errors on the control qubits of CN3 or CN4 can also be detected. The measurement result of a Z-type error on the control qubits of CN5 or CN6 is the same as that of ZH3 = ZC 9 = ZC 10 = ZC 11 (see Z-type Error), and there is no interference, so they can also be detected. Similarly, a Z-type error on the control qubits of CN7 and CN8 can be detected. Therefore, CN1-CN8 all meet the third condition for using the Flag scheme in Figure 11. 2. Next, we analyze the impact of X-type errors on CN9-CN16."
+    ],
+    "text_positions": [
+      [
+        42233,
+        43664
+      ]
+    ]
+  },
+  "2403.04297_5.png": {
+    "arxiv_number": "2403.04297",
+    "page_number": 28,
+    "figure_number": 16,
+    "quantum_gates": [
+      "CCX",
+      "X",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "putation. The computational complexity of an algorithm is reduced to the number of CNOT gates [42]. Considering the universal quantum gates in an ion trap quantum computer, the running time of a single-qubit quantum gate is much less than that of a double-qubit quantum gate [45, 46], so it is sufficient to analyze the CNOT gates. In our FTQC scheme, as shown in Figure 10, an encoded block requires at least 36 CNOT gates, and we intro- duce the \"flag qubits\" scheme, which requires 16 CNOT gates. Combined with our simulation results, for quantum gates that can be directly imple- mented transversally, an encoded block without using concatenated codes in one error-correction period requires at least 52 CNOT gates."
+    ],
+    "text_positions": [
+      [
+        67967,
+        70707
+      ]
+    ]
+  },
+  "2405.21000_1.png": {
+    "arxiv_number": "2405.21000",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "2 ≡|−⟩. We can exploit the Hadamard gate to introduce an im- portant concept in QIP which makes it different from classical one, i.e. interference [41]. In order to delve into this topic, let us introduce the two single-qubit quan- tum circuits shown in Fig. 2. Quantum circuits are used to aid the visual representation of the sequence of op- erations on one or more qubits: each line of the circuit represents the state of the qubit over time (from left to right). At their left they are labeled with the initial state of that qubit, whereas squares placed on the lines repre- sent single-qubit quantum gates and measurements, each one with a specific symbol. As an example, in Fig."
+    ],
+    "text_positions": [
+      [
+        17614,
+        18701
+      ]
+    ]
+  },
+  "2507.12515_1.png": {
+    "arxiv_number": "2507.12515",
+    "page_number": 19,
+    "figure_number": 1,
+    "quantum_gates": [
+      "T",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "where Γ(g) is a representation matrix acting on the bond Hilbert space. See Fig. 1. The corresponding symmetry operator is then given by the MPO formed by ZΓ,"
+    ],
+    "text_positions": [
+      [
+        45638,
+        45796
+      ]
+    ]
+  },
+  "2406.02666_1.png": {
+    "arxiv_number": "2406.02666",
+    "page_number": 8,
+    "figure_number": 5,
+    "quantum_gates": [
+      "H",
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "the ¯X operator of the desired logical qubit. We perform this measurement by using an ancilla measurement gadget (Fig. 5) to measure ¯X3 three times and postselecting on the agreement of the outcomes. This procedure is not fault tolerant because a single Z error on any of the qubits in the support of ¯X3 (namely either X4,1, X4,2 or X4,3) prior to the measurement gadget will spoil all three measurement results. In addition, the postselection is not scalable for larger code sizes. A fault-tolerant and scalable procedure could proceed as follows. First, we initialize an ancillary d = 3 surface- code in the logical |¯+⟩state, which requires 9 additional data qubits."
+    ],
+    "text_positions": [
+      [
+        32222,
+        33381
+      ]
+    ]
+  },
+  "2406.02666_2.png": {
+    "arxiv_number": "2406.02666",
+    "page_number": 8,
+    "figure_number": 5,
+    "quantum_gates": [
+      "H",
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "the ¯X operator of the desired logical qubit. We perform this measurement by using an ancilla measurement gadget (Fig. 5) to measure ¯X3 three times and postselecting on the agreement of the outcomes. This procedure is not fault tolerant because a single Z error on any of the qubits in the support of ¯X3 (namely either X4,1, X4,2 or X4,3) prior to the measurement gadget will spoil all three measurement results. In addition, the postselection is not scalable for larger code sizes. A fault-tolerant and scalable procedure could proceed as follows. First, we initialize an ancillary d = 3 surface- code in the logical |¯+⟩state, which requires 9 additional data qubits."
+    ],
+    "text_positions": [
+      [
+        32222,
+        33381
+      ]
+    ]
+  },
+  "2504.11689_1.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 17,
+    "figure_number": 17,
+    "quantum_gates": [
+      "RY",
+      "RZ",
+      "T"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 17. Quantum circuit for 2+ state of 38Ar using qubit ADAPT-VQE in JW scheme."
+    ],
+    "text_positions": [
+      [
+        56157,
+        56238
+      ]
+    ]
+  },
+  "2504.11689_2.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 15,
+    "figure_number": 9,
+    "quantum_gates": [
+      "H",
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 9. Quantum circuit for 0+ state of 6Li using qubit ADAPT-VQE in GC scheme."
+    ],
+    "text_positions": [
+      [
+        52556,
+        52635
+      ]
+    ]
+  },
+  "2504.11689_3.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 17,
+    "figure_number": 17,
+    "quantum_gates": [
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 17. Quantum circuit for 2+ state of 38Ar using qubit ADAPT-VQE in JW scheme."
+    ],
+    "text_positions": [
+      [
+        56157,
+        56238
+      ]
+    ]
+  },
+  "2504.11689_4.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 19,
+    "figure_number": 22,
+    "quantum_gates": [
+      "RX",
+      "RY"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 22. Quantum circuit for 0+ state of 38Ar for VQE in JW scheme."
+    ],
+    "text_positions": [
+      [
+        59078,
+        59145
+      ]
+    ]
+  },
+  "2504.11689_5.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 15,
+    "figure_number": 10,
+    "quantum_gates": [
+      "H",
+      "RY",
+      "RZ",
+      "S"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 10. Quantum circuit for 1+ state of 6Li using qubit ADAPT-VQE in GC scheme."
+    ],
+    "text_positions": [
+      [
+        52686,
+        52766
+      ]
+    ]
+  },
+  "2504.11689_6.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 17,
+    "figure_number": 15,
+    "quantum_gates": [
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 15. Quantum circuit for 0+ state of 38Ar using qubit ADAPT-VQE in JW scheme."
+    ],
+    "text_positions": [
+      [
+        55778,
+        55859
+      ]
+    ]
+  },
+  "2504.11689_7.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 17,
+    "figure_number": 18,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "This measured value i.e., energy E(θ) is then minimized using a classical optimizer by tuning the parameter θ of the ansatz. Due to its use of shallower circuits compared to the more resource-intensive quantum phase estima- tion algorithm, VQE is particularly well-suited to near- term quantum devices. However, the algorithm’s accu- racy is highly dependent on the choice and structure of the ansatz, which plays a critical role in achieving reliable results. In this work, we utilize the particle-conserving form of ansatz given in section II B for the Jordan-Wigner trans- formation. For Gray code encoding, we use the hardware- efficient variational ansatz, which is developed for up to 3 qubits in Refs. [5, 21]. We expand this approach to construct the ansatz for 4 qubits [Fig. 18]."
+    ],
+    "text_positions": [
+      [
+        19341,
+        20130
+      ]
+    ]
+  },
+  "2504.11689_8.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 17,
+    "figure_number": 16,
+    "quantum_gates": [
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 16. Quantum circuit for 1+ state of 38Ar using qubit ADAPT-VQE in JW scheme."
+    ],
+    "text_positions": [
+      [
+        55972,
+        56053
+      ]
+    ]
+  },
+  "2504.11689_9.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 15,
+    "figure_number": 13,
+    "quantum_gates": [
+      "H",
+      "RY",
+      "RZ",
+      "S"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 13. Quantum circuit for 0+ state of 38Ar using qubit ADAPT-VQE in GC scheme."
+    ],
+    "text_positions": [
+      [
+        53052,
+        53133
+      ]
+    ]
+  },
+  "2504.11689_10.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 17,
+    "figure_number": 19,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 19. Quantum circuit for 1+ state of 6Li and 0+ state of 38Ar for VQE in GC scheme."
+    ],
+    "text_positions": [
+      [
+        56418,
+        56505
+      ]
+    ]
+  },
+  "2504.11689_11.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 12,
+    "figure_number": null,
+    "quantum_gates": [
+      "Y"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 8. Quantum circuit to prepare ansatz given in Eq. (B1) with G1 and G2 as the single- and double excitation operators expanded in subsequent figures."
+    ],
+    "text_positions": [
+      [
+        46117,
+        46270
+      ]
+    ]
+  },
+  "2504.11689_12.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 19,
+    "figure_number": 21,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 21. Quantum circuit for 3+ state of 6Li, 2+ state of 38Ar for VQE in GC scheme."
+    ],
+    "text_positions": [
+      [
+        58961,
+        59045
+      ]
+    ]
+  },
+  "2504.11689_13.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 19,
+    "figure_number": 20,
+    "quantum_gates": [
+      "RY"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 20. Quantum circuit for 2+ state of 6Li and 1+ state of 38Ar for VQE in GC scheme."
+    ],
+    "text_positions": [
+      [
+        58866,
+        58953
+      ]
+    ]
+  },
+  "2504.11689_14.png": {
+    "arxiv_number": "2504.11689",
+    "page_number": 19,
+    "figure_number": 24,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "FIG. 24. Quantum circuit for 2+ state of 38Ar for VQE in JW scheme."
+    ],
+    "text_positions": [
+      [
+        59243,
+        59310
+      ]
+    ]
+  },
+  "2409.06317_1.png": {
+    "arxiv_number": "2409.06317",
+    "page_number": 76,
+    "figure_number": 2,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Quantum_Cryptography",
+    "descriptions": [
+      "Since this is the last time the global counter reaches value 1, the two hybrids H(J,pat) 0 and H(J,pat) 1 by definition behave identically after that (see Fig. 2). That is, the states |ϕ(T)⟩and |ψ(T)⟩will go through the same quantum procedure (let us denote it by F) and finally measured by the predicate Pred. Next, note that the states |ϕ(T)⟩and |ψ(T)⟩share the identical “branch” corresponding to |p1⟩p1 (labeled as Good in the above equations). Also, the Bad branch will not contribute any shares to the accepting probability of the predicate Pred—this is because the quantum procedure F will not change the fact that p′ 1 ̸= p1 for the Bad branch, and recall that, as a consequence of Lem. 14, Pred will output 0 if a branch in the superposition does not have any non-zero amplitude for |p1⟩p1."
+    ],
+    "text_positions": [
+      [
+        228309,
+        229374
+      ]
+    ]
+  },
+  "2411.10396_1.png": {
+    "arxiv_number": "2411.10396",
+    "page_number": 11,
+    "figure_number": 6,
+    "quantum_gates": [
+      "T"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "FIG. S4. Circuit diagram of the capacitively shunted JJ array, which also has capacitances to a transmission line for measure- ment."
+    ],
+    "text_positions": [
+      [
+        44854,
+        44986
+      ]
+    ]
+  },
+  "2411.04608_1.png": {
+    "arxiv_number": "2411.04608",
+    "page_number": 7,
+    "figure_number": 8,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "edge, Bob can transform the state of his EPR particle into an identical copy of the unknown quantum state [20]. The teleportation protocol using the Bell state as an EPR pair has been extensively studied. Since the two-qubit |NS′′ 3 ⟩state also has the maximum concurrence, i.e., 1, we now introduce the teleportation protocol using this state as a shared EPR pair. The corresponding quantum teleportation circuit is shown in Fig 8. “A” (Alice) de- notes the sender and “B” (Bob) the receiver, who share the entangled |NS3′′⟩state in Fig. 8. “Q” represents the unknown qubit to be teleported from Alice to Bob. Following a Bell-state measurement, Alice transmits two classical bits, “a” and “b,” to Bob."
+    ],
+    "text_positions": [
+      [
+        29619,
+        30855
+      ]
+    ]
+  },
+  "2501.14007_1.png": {
+    "arxiv_number": "2501.14007",
+    "page_number": 9,
+    "figure_number": 2,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Fig. 2: Deutsch–Jozsa circuit applied to 4 qubits. The Hadamard gate on q3 is placed in a separate ancilla from the controlled operations."
+    ],
+    "text_positions": [
+      [
+        43343,
+        43481
+      ]
+    ]
+  },
+  "2501.14007_2.png": {
+    "arxiv_number": "2501.14007",
+    "page_number": 8,
+    "figure_number": 1,
+    "quantum_gates": [
+      "H",
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "• Logging and Monitoring: The algorithm logs perfor- mance metrics, such as average fitness, standard devia- tion, and maximum fitness, for each generation, facilitat- ing analysis and visualization. 3) Algorithm Workflow: The intended workflow is illus- trated in Figure 1, which begins with a quantum circuit. The qutip-qip [12] framework then translates this circuit into precompiled pulse sequences. At this stage, we inject quantum Markovian noise (described in detail in Section II-A), which includes various noise models –i.e., dephasing, depolarization, and amplitude damping. Next, we use an evaluator to measure the quantum fidelity [33] of the system under these noisy conditions."
+    ],
+    "text_positions": [
+      [
+        38154,
+        39350
+      ]
+    ]
+  },
+  "2502.08225_1.png": {
+    "arxiv_number": "2502.08225",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "M",
+      "S"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "˜Ktest ≈KT PMK−1 MMKNM (14) Here, KPM is the cross-kernel matrix between the M landmarks and the P test data points, and KMN is the previously computed cross-kernel matrix between the M landmarks and the N training data points. For a comparison in terms of the number of quantum cir- cuit executions required to construct the training and testing kernel matrices using either the Nystr¨om ap- proximation or the standard approach, see Fig.2"
+    ],
+    "text_positions": [
+      [
+        17145,
+        17585
+      ]
+    ]
+  },
+  "2502.08225_2.png": {
+    "arxiv_number": "2502.08225",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "M",
+      "S"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "˜Ktest ≈KT PMK−1 MMKNM (14) Here, KPM is the cross-kernel matrix between the M landmarks and the P test data points, and KMN is the previously computed cross-kernel matrix between the M landmarks and the N training data points. For a comparison in terms of the number of quantum cir- cuit executions required to construct the training and testing kernel matrices using either the Nystr¨om ap- proximation or the standard approach, see Fig.2"
+    ],
+    "text_positions": [
+      [
+        17145,
+        17585
+      ]
+    ]
+  },
+  "2401.14683_1.png": {
+    "arxiv_number": "2401.14683",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "A qubit, which is a variable in a quantum program, is in a superposition of the basis state |0> and |1>. When a qubit is measured, 0 or 1 is observed probabilistically, depending on its superposition state. The state of a qubit can be expressed as |ψ >= a0|0 > +a1|1 > (|a0|2 + |a1|2 = 1), where a0 and a1 are complex numbers and called amplitudes. The absolute squares of the amplitudes |a0|2 and |a1|2 represent the probabilities of obtaining 0 and 1 by a measurement. Generally, an arbitrary quantum state consisting of n qubits is represented by 2n basis states. A quantum program is represented by a model called a quantum circuit. Figure 1 shows an example of a quantum circuit to generate the Bell state."
+    ],
+    "text_positions": [
+      [
+        7275,
+        8165
+      ]
+    ]
+  },
+  "2408.02732_1.png": {
+    "arxiv_number": "2408.02732",
+    "page_number": 2,
+    "figure_number": 4,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "where |z⟩= |z1, z2, . . . zL⟩with zi ∈{0, 1} and B are bit- strings labelling these Fock states. For a fully localized state, Iq = 1 and hence Sq = 0. For a fully delocal- ized state that spans the entire space homogeneously, |⟨z|ψ(t)⟩| = 2−L/2 and Iq = 2(1−q)L, resulting in a max- imal value of Sq = L ln(2), which scales linearly with system size. Space-time duality allows us to rewrite the overlaps Eq. (5) as"
+    ],
+    "text_positions": [
+      [
+        7971,
+        8385
+      ]
+    ]
+  },
+  "2405.07129_1.png": {
+    "arxiv_number": "2405.07129",
+    "page_number": 5,
+    "figure_number": 2,
+    "quantum_gates": [
+      "CH",
+      "H",
+      "S",
+      "T"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Fig. 2 illustrates a quantum circuit corresponding to Eq. (5). Designing this circuit presents several challenges. Specif- ically, it must generate the state described in Eq. (6). For the TSP with n! solutions for n cities, a circuit capable of producing a superposition of these n! feasible solutions is essential, with a query complexity lower than that of the brute-force method, which is O(n!)."
+    ],
+    "text_positions": [
+      [
+        13272,
+        13670
+      ]
+    ]
+  },
+  "2504.14828_1.png": {
+    "arxiv_number": "2504.14828",
+    "page_number": 15,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H",
+      "S",
+      "U"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "where we use L† = L−1 in the second equation. To summarize, for the d-dimensional Poisson equation with Dirichlet boundary conditions, the number of decomposition terms of ⟨b|A(d)|ψ(θ)⟩is 4d+1, and the number of decomposition terms of ⟨ψ(θ)|A(d)2|ψ(θ)⟩ is 12d2. The computation of ⟨b|A(d)|ψ(θ)⟩and ⟨ψ(θ)|A(d)2|ψ(θ)⟩is shown in Figure 3. For the d-dimensional Poisson equation with the Dirichlet boundary conditions, as in [24], the number of terms is also independent of n, and the number of decompo- sitions is the same for ⟨b|A(d)|ψ(θ)⟩. However, for the number of decompositions of ⟨ψ(θ)|A(d)2|ψ(θ)⟩, the number of terms is much less than (4d + 1)2 −(4d + 1) in [24]."
+    ],
+    "text_positions": [
+      [
+        20759,
+        21429
+      ]
+    ]
+  },
+  "2406.19332_1.png": {
+    "arxiv_number": "2406.19332",
+    "page_number": 7,
+    "figure_number": 4,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 4. a) A textbook quantum circuit implementation of the Bernstein Vazirani algorithm, including the oracle which implements f(x) = x · s (mod 2), with the hidden string s = 1010. In general, P si CNOT gates are required for the hidden string s (counting the number of 1’s in s). We propose defining n = 2 virtual qubits for ions as shown by the shaded regions. b) Implementation of a CNOT gate in terms of native gates (Figure 2) in an ion chain with n = 2 virtual qubits, and n = 1 for the auxiliary ion. A single intra- and inter-ion gate suffices, whereas for ions with single qubits, four intra-ion gates and one intra-ion gate are needed."
+    ],
+    "text_positions": [
+      [
+        26718,
+        28085
+      ]
+    ]
+  },
+  "2406.19332_2.png": {
+    "arxiv_number": "2406.19332",
+    "page_number": 6,
+    "figure_number": 1,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "decompositions in terms of the native gates using encoding maps M1 and M2, where only the gates shown in Figure 1 are allowed (R01, R02, R23). We see that for a single qubit gate, the number of native gates can be different based on the encoding map, and also on the specific qubit the gate acts on, breaking the equivalence when all states are connected by Rαβ. How does the number of native gates scale with the number of qubits/levels (n/d) when connectivity is lim- ited? To address this question, consider a minimal connectivity universal gate set R01, R12, . . . , Rd−2d−1 (assum- ing arbitrary possible θ, ϕ for each gate). But the form of the decomposition written in the previous section R12 . . . Rd−3d−2 . . . R12R01Rd−2d−1 . . ."
+    ],
+    "text_positions": [
+      [
+        93175,
+        94606
+      ]
+    ]
+  },
+  "2406.19332_3.png": {
+    "arxiv_number": "2406.19332",
+    "page_number": 7,
+    "figure_number": 4,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 4. a) A textbook quantum circuit implementation of the Bernstein Vazirani algorithm, including the oracle which implements f(x) = x · s (mod 2), with the hidden string s = 1010. In general, P si CNOT gates are required for the hidden string s (counting the number of 1’s in s). We propose defining n = 2 virtual qubits for ions as shown by the shaded regions. b) Implementation of a CNOT gate in terms of native gates (Figure 2) in an ion chain with n = 2 virtual qubits, and n = 1 for the auxiliary ion. A single intra- and inter-ion gate suffices, whereas for ions with single qubits, four intra-ion gates and one intra-ion gate are needed."
+    ],
+    "text_positions": [
+      [
+        26718,
+        28085
+      ]
+    ]
+  },
+  "2406.19332_4.png": {
+    "arxiv_number": "2406.19332",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 4. a) A textbook quantum circuit implementation of the Bernstein Vazirani algorithm, including the oracle which implements f(x) = x · s (mod 2), with the hidden string s = 1010. In general, P si CNOT gates are required for the hidden string s (counting the number of 1’s in s). We propose defining n = 2 virtual qubits for ions as shown by the shaded regions. b) Implementation of a CNOT gate in terms of native gates (Figure 2) in an ion chain with n = 2 virtual qubits, and n = 1 for the auxiliary ion. A single intra- and inter-ion gate suffices, whereas for ions with single qubits, four intra-ion gates and one intra-ion gate are needed."
+    ],
+    "text_positions": [
+      [
+        26718,
+        28085
+      ]
+    ]
+  },
+  "2406.19332_5.png": {
+    "arxiv_number": "2406.19332",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 4. a) A textbook quantum circuit implementation of the Bernstein Vazirani algorithm, including the oracle which implements f(x) = x · s (mod 2), with the hidden string s = 1010. In general, P si CNOT gates are required for the hidden string s (counting the number of 1’s in s). We propose defining n = 2 virtual qubits for ions as shown by the shaded regions. b) Implementation of a CNOT gate in terms of native gates (Figure 2) in an ion chain with n = 2 virtual qubits, and n = 1 for the auxiliary ion. A single intra- and inter-ion gate suffices, whereas for ions with single qubits, four intra-ion gates and one intra-ion gate are needed."
+    ],
+    "text_positions": [
+      [
+        26718,
+        28085
+      ]
+    ]
+  },
+  "2406.19221_1.png": {
+    "arxiv_number": "2406.19221",
+    "page_number": 5,
+    "figure_number": 2,
+    "quantum_gates": [
+      "H",
+      "CNOT",
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 2. QL representation of the transformation Eq. (7), mapping the emergent state ψ [NQL] 0 onto the QL representation of the maximally-entangled GHZ state."
+    ],
+    "text_positions": [
+      [
+        19095,
+        19253
+      ]
+    ]
+  },
+  "2408.16929_1.png": {
+    "arxiv_number": "2408.16929",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "SWAP",
+      "RZ",
+      "CNOT"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "The user embeds the input data into the trained QML model, transpiles it to optimize the circuit for a target quantum hardware, and sends it to the quantum cloud provider for execution. Access to the white-box architecture of this trained QML circuit could enable untrusted cloud providers to steal and misuse it (Fig. 1). For instance, an adversary could remove the state preparation circuit, extract the trained portion of the quantum neural network (QNN) in the transpiled form (Fig. 1 (3)), and reverse engineer the QNN architecture as well as the trained parameters (Fig. 1 (4)), and use their own input data for inference on the same hardware. They could also sell the trained QNN. Prior knowledge of the original circuit design and parameters is not necessary for such attacks."
+    ],
+    "text_positions": [
+      [
+        4426,
+        5328
+      ]
+    ]
+  },
+  "2402.02880_1.png": {
+    "arxiv_number": "2402.02880",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RX",
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [
+      "that is parameterized by continuous-time con- trol functions θ1(t) and θ2(t). Different from the gate-based model, the data-uploading Hamiltonian σz and the training Hamiltonians σx and σy act simultaneously (instead of alter- natively) on the quantum state. As is illustrated in Fig. 2, this model can be physically realized by a frequency tunable su- perconducting qubit dicated by a DC flux bias x. The transition between the qubit’s logical states is manipulated by the microwave Rabi control pulse θ(t) = θ1(t) cos ωt + θ2(t) sin ωt, where ω is the frequency of the local oscilla- tor. Since the quadrature components θ1(t) and θ2(t) are usually generated in a piecewise- constant waveform, the unitary transforma- tions generated by the sub-pulses can be taken as the QNN layers."
+    ],
+    "text_positions": [
+      [
+        8956,
+        10165
+      ]
+    ]
+  },
+  "2404.02819_1.png": {
+    "arxiv_number": "2404.02819",
+    "page_number": 18,
+    "figure_number": 8,
+    "quantum_gates": [
+      "H",
+      "S",
+      "T",
+      "U",
+      "X",
+      "Y"
+    ],
+    "quantum_problem": "Benchmarking",
+    "descriptions": [
+      "and ˜ˆDt is the approximation of the diagonal operator ˆDt. Three approximations contribute to the error: the approximate quantum state preparation of the initial condition, the space discretization with the centered finite difference approximation of the Laplacian operator, and the approxima- tion in implementing the evolution operator. The quantity ∥|f⟩t /∥|f⟩t ∥2,N −| ˜˜f⟩t /∥| ˜˜f⟩t ∥2,N∥2,N can be bounded by the sum of these three errors. The first one is the approximation of the initial Gaussian function. This approximation is discussed in detail in the previous section on quantum state preparation VIII A and in Fig 8. The second source of error arises from the spatial discretization of the Laplacian operator."
+    ],
+    "text_positions": [
+      [
+        67119,
+        68912
+      ]
+    ]
+  },
+  "2404.02819_2.png": {
+    "arxiv_number": "2404.02819",
+    "page_number": 10,
+    "figure_number": 3,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Benchmarking",
+    "descriptions": [
+      "depends directly on the maximum of the derivative of the associated function. When the derivative of f is unbounded, or if it scales with the number of qubits, the error is not guarranted to decrease as the depth increases. Numerical evidence demonstrates that the trade-off remain possible for square-root functions and some bounded piecewise dif- ferentiable functions [12]. Approximating diagonal operators with Fourier series [23] is possible and may converge exponentially fast, but the convergence criterion is stronger than the Walsh-Hadamard condition on the derivative of f. The quantum state preparation Theorem VIII.1 provides an efficient and adjustable-depth method to prepare quantum states associated with continuously-differentiable functions."
+    ],
+    "text_positions": [
+      [
+        71302,
+        73629
+      ]
+    ]
+  },
+  "2408.01025_1.png": {
+    "arxiv_number": "2408.01025",
+    "page_number": 11,
+    "figure_number": 6,
+    "quantum_gates": [
+      "H",
+      "X"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "Figure 6. Our generalized symmetrical structure for the quantum circuit of 3-bit AND gate of CALA-n, where θ (θ1, θ2, θ3, θ4)"
+    ],
+    "text_positions": [
+      [
+        29154,
+        29279
+      ]
+    ]
+  },
+  "2503.20979_1.png": {
+    "arxiv_number": "2503.20979",
+    "page_number": 2,
+    "figure_number": 1,
+    "quantum_gates": [
+      "RY",
+      "T"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "tical or not. Specifically, S1 = {ρi1i2,j1j2|i1 = j1, i2 = j2} consists of all diagonal elements (yellow in Fig. 1), while S2 = {ρi1i2,j1j2|i1 = j1, i2 ̸= j2} has the elements that are diagonal in the first qubit but off-diagonal in the second (blue in Fig. 1). Similarly, S3 = {ρi1i2,j1j2|i1 ̸= j1, i2 = j2} and S4 = {ρi1i2,j1j2|i1 ̸= j1, i2 ̸= j2} (green and red, respectively, in Fig. 1). The elements in any set can thus be obtained from a single element by preserving the pari- ties of the pairs of indices (i1, j1) and (i2, j2) through the transformation {I, X}⊗2(i1i2, j1j2) →(i′ 1i′ 2, j′ 1j′ 2), where X denotes a bit-flip gate and the first (second) operator acts on both i1 (i2) and j1 (j2)."
+    ],
+    "text_positions": [
+      [
+        9128,
+        11031
+      ]
+    ]
+  },
+  "2509.03974_1.png": {
+    "arxiv_number": "2509.03974",
+    "page_number": 27,
+    "figure_number": null,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. S10. The encoder circuit for the qutrit erasure code is shown before the two dashed lines, followed by the syndrome measurement circuit."
+    ],
+    "text_positions": [
+      [
+        108454,
+        108595
+      ]
+    ]
+  },
+  "2507.01902_1.png": {
+    "arxiv_number": "2507.01902",
+    "page_number": 4,
+    "figure_number": null,
+    "quantum_gates": [
+      "RY",
+      "CNOT"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "CX gates, the sampling overhead factor is γ(CX)2 =γ(CZ)2 = 32 =9, as defined in [43, 44], therefore, the overall sampling overhead for each circuit will scale exponentially with the number of nonlocal gate cuts (Ncuts) defined as QNcuts i=1 9 or 9Ncuts. Starting with the UCCSD ansatz using the JW encoding (Fig. 2a), this circuit contains 16 controlled-X and 2 controlled- Z gates that are cut, corresponding to a sampling overhead of 916+2 = 1.5009 × 1017. The corresponding circuit using BK encoding (Fig. 2b) has a higher sampling overhead of 924 =7."
+    ],
+    "text_positions": [
+      [
+        18339,
+        20708
+      ]
+    ]
+  },
+  "2507.01902_2.png": {
+    "arxiv_number": "2507.01902",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RX",
+      "RZ"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "IV. RESULTS AND DISCUSSION In this section, we examine the aptitude of the aforementioned ans¨atze for distribution, which includes insights into the types of gates that are cut, the number of cuts, and the sampling overhead. We start our analysis using H2, where example circuits for each ans¨atz are shown in Fig. 2. While each of the circuits in Fig. 2 is cut in half, between qubits q1 and q2, the orbitals included in each partition will change, depending on the method."
+    ],
+    "text_positions": [
+      [
+        16530,
+        17564
+      ]
+    ]
+  },
+  "2507.01902_3.png": {
+    "arxiv_number": "2507.01902",
+    "page_number": 4,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RX",
+      "RZ"
+    ],
+    "quantum_problem": "VQE",
+    "descriptions": [
+      "IV. RESULTS AND DISCUSSION In this section, we examine the aptitude of the aforementioned ans¨atze for distribution, which includes insights into the types of gates that are cut, the number of cuts, and the sampling overhead. We start our analysis using H2, where example circuits for each ans¨atz are shown in Fig. 2. While each of the circuits in Fig. 2 is cut in half, between qubits q1 and q2, the orbitals included in each partition will change, depending on the method."
+    ],
+    "text_positions": [
+      [
+        16530,
+        17564
+      ]
+    ]
+  },
+  "2502.15556_1.png": {
+    "arxiv_number": "2502.15556",
+    "page_number": 3,
+    "figure_number": 1,
+    "quantum_gates": [
+      "U",
+      "Z"
+    ],
+    "quantum_problem": "Grover_Algorithm",
+    "descriptions": [
+      "our quantum algorithm and the iterations needed for a direct classical search. The results clearly demonstrate that the quantum search requires significantly fewer iter- ations than the classical counterpart for each optimiza- tion problem, showcasing a distinct quadratic advantage. It is worthwhile to note that like all other quantum search algorithms, our quantum search algorithm for CSPs works well in theory. In practice, the success of our algorithm relies on the successful implementa- tions of quantum error correction on noisy quantum de- vices [68, 69]. Without error correction, the circuit of our algorithm can be very sensitive to noise."
+    ],
+    "text_positions": [
+      [
+        27127,
+        28103
+      ]
+    ]
+  },
+  "2501.14464_1.png": {
+    "arxiv_number": "2501.14464",
+    "page_number": 12,
+    "figure_number": 7,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "is smaller, resulting in narrower peak widths in Fig. 7. This implies that the atomic radiation bandwidth is nar- rower, similar to the reﬂection coeﬃcient rk of a single photon. When the incident energy satisfy the condition δE1 = E1 −2Ω= Γ sin(β1)/2 = 2∆L, a peak appears only in the center. This means that two output photons in the bound state tend to be emitted with the same momen- tum k2 = p2, and the peak value is maximized compared to other energy detuning δE1 for each ﬁxed phase. This is consistent with the single photon reﬂection resonance energy k = Ω+ ∆L for the giant atom, diﬀering from k = Ωfor the natural atom. Compared to the natural atom case for β1 = 0, we ﬁnd the peak height of the giant atom increases when the phase β1 is increased from 0 to 0.5π and 0."
+    ],
+    "text_positions": [
+      [
+        49354,
+        51002
+      ]
+    ]
+  },
+  "2501.14464_2.png": {
+    "arxiv_number": "2501.14464",
+    "page_number": 12,
+    "figure_number": 7,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Hardware_Architecture",
+    "descriptions": [
+      "is smaller, resulting in narrower peak widths in Fig. 7. This implies that the atomic radiation bandwidth is nar- rower, similar to the reﬂection coeﬃcient rk of a single photon. When the incident energy satisfy the condition δE1 = E1 −2Ω= Γ sin(β1)/2 = 2∆L, a peak appears only in the center. This means that two output photons in the bound state tend to be emitted with the same momen- tum k2 = p2, and the peak value is maximized compared to other energy detuning δE1 for each ﬁxed phase. This is consistent with the single photon reﬂection resonance energy k = Ω+ ∆L for the giant atom, diﬀering from k = Ωfor the natural atom. Compared to the natural atom case for β1 = 0, we ﬁnd the peak height of the giant atom increases when the phase β1 is increased from 0 to 0.5π and 0."
+    ],
+    "text_positions": [
+      [
+        49354,
+        51002
+      ]
+    ]
+  },
+  "2412.07563_1.png": {
+    "arxiv_number": "2412.07563",
+    "page_number": 20,
+    "figure_number": null,
+    "quantum_gates": [
+      "Z"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Sh(g[y+1] σ )|Ψg[y] τ ⟩ (D9) = (A15) = −1·"
+    ],
+    "text_positions": [
+      [
+        65931,
+        65973
+      ]
+    ]
+  },
+  "2412.07563_2.png": {
+    "arxiv_number": "2412.07563",
+    "page_number": 20,
+    "figure_number": null,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Sh(g[y] τ )|ψg[y+1] σ ⟩ (D9)(D10) = (A20) = −1·"
+    ],
+    "text_positions": [
+      [
+        66914,
+        66961
+      ]
+    ]
+  },
+  "2412.07563_3.png": {
+    "arxiv_number": "2412.07563",
+    "page_number": 20,
+    "figure_number": null,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "and applying normalization to the 2D cluster state, we obtain the wave function |ψg[y+1] σ ⟩. The subsystem symmetry transformation on |ψg[y+1] σ ⟩is evaluated via"
+    ],
+    "text_positions": [
+      [
+        66497,
+        66660
+      ]
+    ]
+  },
+  "2412.07563_4.png": {
+    "arxiv_number": "2412.07563",
+    "page_number": 12,
+    "figure_number": null,
+    "quantum_gates": [
+      "X"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "The exact symmetry operators Sh(k[2y+1]) and average symmetry operators Sh(g[2y]) of the system are defined on the subsystems with odd and even indices"
+    ],
+    "text_positions": [
+      [
+        37590,
+        37741
+      ]
+    ]
+  },
+  "2504.09234_1.png": {
+    "arxiv_number": "2504.09234",
+    "page_number": 6,
+    "figure_number": 13,
+    "quantum_gates": [
+      "H",
+      "Y"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Figure 13: An example 2-qubit circuit with one conditional, where 퐸is an expression. This circuit is used to demonstrate how metrics are calculated."
+    ],
+    "text_positions": [
+      [
+        26598,
+        26746
+      ]
+    ]
+  },
+  "2412.00332_1.png": {
+    "arxiv_number": "2412.00332",
+    "page_number": 13,
+    "figure_number": 11,
+    "quantum_gates": [
+      "RY",
+      "RZ"
+    ],
+    "quantum_problem": "Grover_Algorithm",
+    "descriptions": [
+      "181)/3)/π) ≃0.67. They are summarized in Fig. 10. In short, when R = 16.81 and R = 4, our algo- rithm is superior and inferior to the algorithm in Ref. [25], respectively. From these observations, we can anticipate that when we would like to achieve a high ratio R, our algorithm would be preferred, but when R is sufﬁciently low, the existing algorithm is preferable. It would be indispensable for a more detailed comparison to clarify how efﬁciently these two types of oracle operators can be constructed. Since we set n = 8, the marked items can be represented as three-bit strings. Suppose that ˜x1 = 000 and ˜x2 = 111. We give concrete quantum circuits that implement the oracle operators Eqs. (39) and (44) in Fig. 11. By combining"
+    ],
+    "text_positions": [
+      [
+        37925,
+        38662
+      ]
+    ]
+  },
+  "2509.26623_1.png": {
+    "arxiv_number": "2509.26623",
+    "page_number": 1,
+    "figure_number": 1,
+    "quantum_gates": [
+      "U"
+    ],
+    "quantum_problem": "Benchmarking",
+    "descriptions": [
+      "Random unitary operation offers a universal primi- tive for various quantum information processing includ- ing shadow tomography [1–8], random sampling [9–14], randomized benchmarking [15–19] and quantum random oracle model in cryptography [20–26]. It also offers a fundamental understanding of physical systems, includ- ing black holes and chaotic systems [27–37]. Random dis- tribution of d-dimensional unitary operation is modeled by the Haar measure. Tthere are three common ways to simulate the Haar-random unitary in the quantum circuit model: unitary t-design, pseudorandom unitary (PRU), and compressed oracle."
+    ],
+    "text_positions": [
+      [
+        1033,
+        2968
+      ]
+    ]
+  },
+  "2509.26623_2.png": {
+    "arxiv_number": "2509.26623",
+    "page_number": 12,
+    "figure_number": 6,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "In this section, we provide a proof of Thm. 4 by describing an efficient construction of (dual) Clebsch–Gordan transforms for the unitary group with defining representation □, which is needed to achieve poly(n) complexity, where n = log2(d). The main components of this construction were first described in detail explicitly in [78], based on the ideas from [90, 91]. We present them here with minor modifications and adaptations needed for our setting. We start with the CG transform, which is presented in Fig. 6. It consists of two main components: preprocessing gate P and compressed g CG transform. The preprocessing gate P is needed to efficiently use the memory space by preparing the input |xk⟩to be processed correctly within the compressed g CG transform."
+    ],
+    "text_positions": [
+      [
+        42339,
+        43966
+      ]
+    ]
+  },
+  "2509.26623_3.png": {
+    "arxiv_number": "2509.26623",
+    "page_number": 2,
+    "figure_number": 2,
+    "quantum_gates": [
+      "M"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "Proof idea. We use the notation introduced in the End Matter for the representation theory. The main idea be- hind the proof technique is schematically described in Fig. 4 for the case of forward queries fO: the quantum circuit consisting of our compressed oracles from Fig. 2 can be easily seen to be equivalent to the tensor network contraction involving Clebsch–Gordan tensors, which is the tensor network representation of the Clebsch–Gordan transform. Namely, top and bottom tensor networks in the middle of the equation in Fig. 4 correspond to matrix units Eλ T,S of the commutant of the tensor ac- tion R⊗t. The summation is done over all possible ma- trix units Eλ T,S of the commutant for λ ∈ˆG(t), S = (S0, s1, S1, . . . , st, St), T = (T0, t1, T1, . . . , tt, Tt) ∈B(λ)."
+    ],
+    "text_positions": [
+      [
+        8261,
+        9466
+      ]
+    ]
+  },
+  "2509.03306_1.png": {
+    "arxiv_number": "2509.03306",
+    "page_number": 13,
+    "figure_number": 6,
+    "quantum_gates": [
+      "RX",
+      "RZ"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "Fig. 6. Graphical representation of the alternative 15 qubit quantum circuit used to perform confidentiality experiments together with the original benchmark circuit, GHZ and Deutsch-Jozsa"
+    ],
+    "text_positions": [
+      [
+        27746,
+        27934
+      ]
+    ]
+  },
+  "2410.18812_1.png": {
+    "arxiv_number": "2410.18812",
+    "page_number": 9,
+    "figure_number": 31,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "It is possible to prepare states of open spin networks using the method presented. For this purpose, one can leave particular legs of ι tensors without connecting them to other tensors. An example of the case of the penta- gram spin network is shown in Figs. 29 and 30. It should be noted that a distinct definition of an open spin network is utilized in this context compared to the one presented in Ref. [14]. There, we considered open links as links that are still endowed with holonomy. In other words, the link had two spins associated with it, one at the outer node and one at the loose end of the link. In the current work, we consider an open link as a link without holonomy and only one spin, which is part of the outer node. The latter definition is common in the literature. In Fig."
+    ],
+    "text_positions": [
+      [
+        25573,
+        26590
+      ]
+    ]
+  },
+  "2410.18812_2.png": {
+    "arxiv_number": "2410.18812",
+    "page_number": 12,
+    "figure_number": 36,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "FIG. 36: Procedure of obtaining boundary state from random bulk state. Circuits A′ and B′ are version of A and B, respectively, with k as an input. Explicit forms can be found in Appendix A."
+    ],
+    "text_positions": [
+      [
+        40250,
+        40440
+      ]
+    ]
+  },
+  "2410.18812_3.png": {
+    "arxiv_number": "2410.18812",
+    "page_number": 8,
+    "figure_number": 28,
+    "quantum_gates": [
+      "RY",
+      "Y"
+    ],
+    "quantum_problem": "Quantum_Simulation",
+    "descriptions": [
+      "spin network is the one shown in Fig. 27. Following the transfer method discussed in Ref. [23] and applied in our earlier article [14], we transfer the 5-qubit state of intertwines onto the ansatz circuit built from the three layers of the circuit shown in Fig. 28. The ansatz is the so-called SimplifiedTwoDesign [31]. The optimization method applied in the procedure in- volves the cost functions:"
+    ],
+    "text_positions": [
+      [
+        37255,
+        37654
+      ]
+    ]
+  },
+  "2406.14084_1.png": {
+    "arxiv_number": "2406.14084",
+    "page_number": 13,
+    "figure_number": 5,
+    "quantum_gates": [
+      "H",
+      "RZ"
+    ],
+    "quantum_problem": "Benchmarking",
+    "descriptions": [
+      "This resulting output should match Figure 5(c). As men- tioned above, you can also observe that the target qubit for each original gate operation should not exceed the chunk size of 4, as marked in red. Moreover, the RZZ gates with IDs 2, 3, and 9 are now merged into a single D4 gate, and RZZ gates with IDs 7, 8, and 12 are also merged into a single D4 gate. The symbol ”...” represents the remaining information of the fused gates. Congratulations! You now have enough knowledge to dis- cern the correctness of more complex circuits in our bench- mark. Of course, we also invite you to verify via our scripts. [Auto-validation] To validate that the optimized circuit executes in the correct sequence and with proper dependencies on target qubits, one can utilize our validation script."
+    ],
+    "text_positions": [
+      [
+        81536,
+        82363
+      ]
+    ]
+  },
+  "2412.12680_1.png": {
+    "arxiv_number": "2412.12680",
+    "page_number": 25,
+    "figure_number": null,
+    "quantum_gates": [
+      "H"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "2. The weighting of the CZ gate can utilize eigq2q3 = S†(ln(g))eiq2q3S†(ln(g)) [55]. Subsequently we introduce the squeezing param- eter r′ such that S(r′) = S(ln(g))S(r3). Further- more since the CZ gates commute, the circuit be-"
+    ],
+    "text_positions": [
+      [
+        97573,
+        97803
+      ]
+    ]
+  },
+  "2506.20632_1.png": {
+    "arxiv_number": "2506.20632",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "FIG. 3. The interference fringe derived from the geometric phase on the control qubit. The projection probability P(θ) is measured by changing θ, for which the data points are fitted with the function given by Eq. (4), and the fitting curves are shown in blue. A total of six combinations of m, l are investigated, and the period reducing with the scaling of 1/ml indicates the nonlinearly enhanced precision to measure θ. In each trial of the experiment, P(θ) is calculated from the results of projective measurement on ν = 7 × 107 photons, and the data points denote the mean values (± RMSE) of 60 trials of the experiment. As we can see, all the data points fall at the fitting curve and the error-bar is not visible since the error is smaller than the dot size."
+    ],
+    "text_positions": [
+      [
+        20619,
+        21384
+      ]
+    ]
+  },
+  "2506.20632_2.png": {
+    "arxiv_number": "2506.20632",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "FIG. 3. The interference fringe derived from the geometric phase on the control qubit. The projection probability P(θ) is measured by changing θ, for which the data points are fitted with the function given by Eq. (4), and the fitting curves are shown in blue. A total of six combinations of m, l are investigated, and the period reducing with the scaling of 1/ml indicates the nonlinearly enhanced precision to measure θ. In each trial of the experiment, P(θ) is calculated from the results of projective measurement on ν = 7 × 107 photons, and the data points denote the mean values (± RMSE) of 60 trials of the experiment. As we can see, all the data points fall at the fitting curve and the error-bar is not visible since the error is smaller than the dot size."
+    ],
+    "text_positions": [
+      [
+        20619,
+        21384
+      ]
+    ]
+  },
+  "2506.20632_3.png": {
+    "arxiv_number": "2506.20632",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "FIG. 3. The interference fringe derived from the geometric phase on the control qubit. The projection probability P(θ) is measured by changing θ, for which the data points are fitted with the function given by Eq. (4), and the fitting curves are shown in blue. A total of six combinations of m, l are investigated, and the period reducing with the scaling of 1/ml indicates the nonlinearly enhanced precision to measure θ. In each trial of the experiment, P(θ) is calculated from the results of projective measurement on ν = 7 × 107 photons, and the data points denote the mean values (± RMSE) of 60 trials of the experiment. As we can see, all the data points fall at the fitting curve and the error-bar is not visible since the error is smaller than the dot size."
+    ],
+    "text_positions": [
+      [
+        20619,
+        21384
+      ]
+    ]
+  },
+  "2506.20632_4.png": {
+    "arxiv_number": "2506.20632",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "FIG. 3. The interference fringe derived from the geometric phase on the control qubit. The projection probability P(θ) is measured by changing θ, for which the data points are fitted with the function given by Eq. (4), and the fitting curves are shown in blue. A total of six combinations of m, l are investigated, and the period reducing with the scaling of 1/ml indicates the nonlinearly enhanced precision to measure θ. In each trial of the experiment, P(θ) is calculated from the results of projective measurement on ν = 7 × 107 photons, and the data points denote the mean values (± RMSE) of 60 trials of the experiment. As we can see, all the data points fall at the fitting curve and the error-bar is not visible since the error is smaller than the dot size."
+    ],
+    "text_positions": [
+      [
+        20619,
+        21384
+      ]
+    ]
+  },
+  "2506.20632_5.png": {
+    "arxiv_number": "2506.20632",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "FIG. 3. The interference fringe derived from the geometric phase on the control qubit. The projection probability P(θ) is measured by changing θ, for which the data points are fitted with the function given by Eq. (4), and the fitting curves are shown in blue. A total of six combinations of m, l are investigated, and the period reducing with the scaling of 1/ml indicates the nonlinearly enhanced precision to measure θ. In each trial of the experiment, P(θ) is calculated from the results of projective measurement on ν = 7 × 107 photons, and the data points denote the mean values (± RMSE) of 60 trials of the experiment. As we can see, all the data points fall at the fitting curve and the error-bar is not visible since the error is smaller than the dot size."
+    ],
+    "text_positions": [
+      [
+        20619,
+        21384
+      ]
+    ]
+  },
+  "2506.20632_6.png": {
+    "arxiv_number": "2506.20632",
+    "page_number": 5,
+    "figure_number": 3,
+    "quantum_gates": [
+      "S"
+    ],
+    "quantum_problem": "Unknown",
+    "descriptions": [
+      "FIG. 3. The interference fringe derived from the geometric phase on the control qubit. The projection probability P(θ) is measured by changing θ, for which the data points are fitted with the function given by Eq. (4), and the fitting curves are shown in blue. A total of six combinations of m, l are investigated, and the period reducing with the scaling of 1/ml indicates the nonlinearly enhanced precision to measure θ. In each trial of the experiment, P(θ) is calculated from the results of projective measurement on ν = 7 × 107 photons, and the data points denote the mean values (± RMSE) of 60 trials of the experiment. As we can see, all the data points fall at the fitting curve and the error-bar is not visible since the error is smaller than the dot size."
+    ],
+    "text_positions": [
+      [
+        20619,
+        21384
+      ]
+    ]
+  },
+  "2412.17485_1.png": {
+    "arxiv_number": "2412.17485",
+    "page_number": 3,
+    "figure_number": 3,
+    "quantum_gates": [
+      "M",
+      "S",
+      "T",
+      "U",
+      "Y"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "number of shots, it is essential to determine the mini- mum number of shots required for each probability dis- tribution. Fig. 3 illustrates the relationship between en- tropy and the number of shots needed to approximate the ideal probability distribution that the quantum state is theoretically expected to output. The x-axis represents the entropy of the output distribution, while the y-axis shows the number of shots required to achieve a Hellinger distance of 0.05. The results reveal an exponential rela- tionship between the entropy of the target distribution and the number of shots necessary to achieve a specified level of accuracy. Therefore, by referencing the entropy of a distribution in VQA iterations, we can estimate the required shot count to ensure accurate measurement."
+    ],
+    "text_positions": [
+      [
+        14340,
+        15130
+      ]
+    ]
+  },
+  "2407.06226_1.png": {
+    "arxiv_number": "2407.06226",
+    "page_number": 40,
+    "figure_number": null,
+    "quantum_gates": [
+      "RX",
+      "RY"
+    ],
+    "quantum_problem": "Quantum_Machine_Learning",
+    "descriptions": [],
+    "text_positions": []
+  },
+  "2505.09133_1.png": {
+    "arxiv_number": "2505.09133",
+    "page_number": 5,
+    "figure_number": 2,
+    "quantum_gates": [
+      "RZ",
+      "X",
+      "Z"
+    ],
+    "quantum_problem": "QFT_QPE",
+    "descriptions": [
+      "The J7, 1, 3K color code [54, 55] takes 7 physical qubits to encode 1 logical qubit to distance 3, enabling the cor- rection of any single-qubit errors. In what follows, we refer to the J7, 1, 3K color code as the color code. The gen- erating set of stabilizers and logical operators are given in Fig. 2 with the overhead bar indicating the logical op- eration. The QPE circuit encoded with the color code consists of various components: logical state preparation, logical gates, QEC cycles, and final measurement. The logical error rate of the QPE circuit increases with the logical er- ror rate of its components, so care must be taken in their design."
+    ],
+    "text_positions": [
+      [
+        14929,
+        15794
+      ]
+    ]
+  },
+  "2505.09133_2.png": {
+    "arxiv_number": "2505.09133",
+    "page_number": 15,
+    "figure_number": null,
+    "quantum_gates": [
+      "H",
+      "CNOT"
+    ],
+    "quantum_problem": "Error_Correction",
+    "descriptions": [
+      "where a0 represents the ancillary qubit. The circuit first encodes the state |0⟩non-fault-tolerantly with (B2) and then measures the bottom qubit to check if the state is correctly prepared up to a weight-1 X error. A successful encoding is indicated by c = 0. The circuit is discarded when c = 1 is measured, and the protocol repeats the circuit executions until c = 0 is measured."
+    ],
+    "text_positions": [
+      [
+        60123,
+        60505
+      ]
+    ]
+  }
+}

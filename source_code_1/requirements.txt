@@ -1,0 +1,36 @@
+# ProjectNLP Dependencies
+# Quantum Circuit Extraction Pipeline
+
+# Core Deep Learning
+torch>=2.0.0
+transformers>=4.30.0
+timm>=0.9.8  # required for DINOv2 vision transformer
+
+# arXiv API
+arxiv>=1.4.8
+
+# Scientific Computing
+numpy>=1.24.0
+scikit-learn>=1.2.0
+
+# Image Processing
+pillow>=9.0.0
+opencv-python-headless>=4.7.0
+
+# PDF Processing
+PyMuPDF>=1.22.0
+docling>=1.0.0  # Layout-aware PDF extraction
+
+# OCR (Optical Character Recognition)
+pytesseract>=0.3.10
+easyocr>=1.7.0  # Visual gate detection
+paddlepaddle>=2.5.0  # Optional but enabled by default in gate detector
+paddleocr>=2.7.0.3
+
+# Vector Search & Embeddings
+faiss-cpu>=1.7.0
+
+# Utilities
+requests>=2.28.0
+pyyaml>=6.0
+tqdm>=4.65.0

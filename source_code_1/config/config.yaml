@@ -1,0 +1,204 @@
+# =============================================================================
+# ProjectNLP Configuration
+# Quantum Circuit Extraction Pipeline
+# =============================================================================
+# All configurable parameters for the pipeline are defined here.
+# Update this file to change thresholds, paths, or behavior.
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# PROJECT SETTINGS
+# -----------------------------------------------------------------------------
+project:
+  name: "ProjectNLP"
+  version: "1.0.0"
+  author: "Rutvik Dilipbhai Vasoya"
+  examId: "1"                          # Used in output folder/file names
+
+# -----------------------------------------------------------------------------
+# FILE PATHS
+# -----------------------------------------------------------------------------
+paths:
+  # Input paths
+  input:
+    paperList: "input/paper_list_1.txt"  # List of arXiv IDs to process
+  
+  # Output paths (files saved here)
+  output:
+    baseDir: "output"
+    imagesDir: "output/images_1"           # Saved circuit images: qc_001.png, etc.
+    datasetJson: "output/dataset_1.json"   # JSON metadata for all circuits
+    countsCsv: "output/paper_list_counts_1.csv"  # CSV tracking file
+    rawImagesDir: "output/raw_images_1"    # All extracted images (for auditing)
+  
+  # Temporary paths (auto-cleaned)
+  temp:
+    baseDir: "temp"
+    pdfsDir: "temp/pdfs"                   # Downloaded PDFs
+    imagesDir: "temp/images"               # Extracted images before filtering
+  
+  # Checkpoint paths (for resume)
+  checkpoints:
+    dir: "checkpoints"
+    file: "checkpoints/progress.json"
+  
+  # Logging paths
+  logs:
+    dir: "logs"
+    file: "logs/pipeline.log"
+
+# -----------------------------------------------------------------------------
+# PIPELINE SETTINGS
+# -----------------------------------------------------------------------------
+pipeline:
+  examId: "1"                              # Exam ID for output file naming
+  maxCircuitCount: 250                     # Stop after collecting this many circuits
+  minImageSize: 150                        # Drop images smaller than this (pixels)
+  cleanTempAfterPaper: true                # Delete temp PDF after processing each paper
+  saveAllExtracted: true                   # Save all extracted images (raw) for auditing
+
+# -----------------------------------------------------------------------------
+# ARXIV SETTINGS
+# -----------------------------------------------------------------------------
+arxiv:
+  validCategory: "quant-ph"                # Only process papers in this category
+  maxRetries: 3                            # Retry count for failed downloads
+  requestDelay: 5.0                        # Seconds between API requests
+
+# -----------------------------------------------------------------------------
+# CIRCUIT DETECTION SETTINGS (DINOv2 Embedding-based)
+# -----------------------------------------------------------------------------
+detection:
+  # Pipeline Mode Selection
+  pipelineMode: "vision"
+  
+  # Image size filters (increased to avoid tiny/meaningless images)
+  minWidth: 100                            # Minimum image width to process (circuits need space)
+  minHeight: 100                          # Minimum image height to process (circuits need height)
+  
+  # Embedding detector thresholds
+  embedding:
+    combinedThreshold: 0.7                 # Combined score threshold for HIGH tier (requires gate validation)
+
+    centroidWeight: 0.6                    # Weight for centroid score
+    knnWeight: 0.4                         # Weight for KNN score
+    kNeighbors: 10                         # Number of neighbors for KNN
+    
+    # Confidence levels (for problem classification)
+    highConfidence: 0.80                   # Score >= this = HIGH confidence
+    mediumConfidence: 0.60                 # Score >= this = MEDIUM confidence
+    # Score < mediumConfidence = LOW confidence
+
+
+# -----------------------------------------------------------------------------
+# GATE DETECTION SETTINGS (Visual Detection + EasyOCR)
+# -----------------------------------------------------------------------------
+gateDetection:
+  # Detection method
+  method: "visual"                         # Visual contour detection + EasyOCR
+  useGpu: true                             # Use GPU for EasyOCR (ENABLED for speed)
+  
+  # Visual detection parameters
+  visual:
+    minArea: 400                           # Minimum gate box area (pixels²)
+    maxArea: 50000                         # Maximum gate box area (pixels²)
+    minAspectRatio: 0.3                    # Minimum width/height ratio
+    maxAspectRatio: 4.0                    # Maximum width/height ratio
+    thresholds: [150, 200]                 # Binary threshold values (reduced to 2 for speed)
+
+# -----------------------------------------------------------------------------
+# PROBLEM CLASSIFICATION SETTINGS (SciBERT)
+# -----------------------------------------------------------------------------
+problemClassification:
+  device: "cpu"                           # Use GPU for SciBERT (ENABLED for speed)
+  
+  # Similarity thresholds
+  similarityThreshold: 0.65                # Minimum similarity to classify
+  minMargin: 0.10                          # Minimum difference between top 2 categories
+  
+  # Confidence score thresholds
+  highConfidence: 0.80                     # Score >= this = HIGH confidence
+  mediumConfidence: 0.70                   # Score >= this = MEDIUM confidence
+
+
+# -----------------------------------------------------------------------------
+# QUANTUM GATES (Reference Lists)
+# -----------------------------------------------------------------------------
+quantumGates:
+  # Single qubit gates
+  singleQubit:
+    - H          # Hadamard
+    - X          # Pauli-X (NOT)
+    - Y          # Pauli-Y
+    - Z          # Pauli-Z
+    - S          # Phase gate
+    - T          # T gate
+    - I          # Identity
+    - Rx         # Rotation X
+    - Ry         # Rotation Y
+    - Rz         # Rotation Z
+    - U          # General unitary
+    - U1         # U1 gate
+    - U2         # U2 gate
+    - U3         # U3 gate
+  
+  # Multi-qubit gates
+  multiQubit:
+    - CNOT       # Controlled-NOT
+    - CX         # Controlled-X (same as CNOT)
+    - CY         # Controlled-Y
+    - CZ         # Controlled-Z
+    - SWAP       # SWAP gate
+    - CCX        # Toffoli (CCNOT)
+    - CSWAP      # Fredkin
+  
+  # Measurement
+  measurement:
+    - M          # Measurement
+    - MEASURE
+
+# -----------------------------------------------------------------------------
+# GATE NORMALIZATION (OCR variations -> standard names)
+# -----------------------------------------------------------------------------
+gateNormalization:
+  hadamard: "H"
+  pauli-x: "X"
+  pauli-y: "Y"
+  pauli-z: "Z"
+  not: "X"
+  controlled-not: "CNOT"
+  controlled-x: "CNOT"
+  cx: "CNOT"
+  toffoli: "CCX"
+  ccnot: "CCX"
+  fredkin: "CSWAP"
+
+# -----------------------------------------------------------------------------
+# QUANTUM ALGORITHMS (Text patterns -> algorithm names)
+# -----------------------------------------------------------------------------
+quantumAlgorithms:
+  grover: "Grover's Algorithm"
+  shor: "Shor's Algorithm"
+  qft: "Quantum Fourier Transform"
+  fourier: "Quantum Fourier Transform"
+  vqe: "VQE"
+  variational quantum eigensolver: "VQE"
+  qaoa: "QAOA"
+  quantum approximate optimization: "QAOA"
+  teleportation: "Quantum Teleportation"
+  error correction: "Quantum Error Correction"
+  qec: "Quantum Error Correction"
+  bernstein: "Bernstein-Vazirani Algorithm"
+  deutsch: "Deutsch-Jozsa Algorithm"
+  simon: "Simon's Algorithm"
+  phase estimation: "Quantum Phase Estimation"
+  qpe: "Quantum Phase Estimation"
+  hhl: "HHL Algorithm"
+
+# -----------------------------------------------------------------------------
+# LOGGING SETTINGS
+# -----------------------------------------------------------------------------
+logging:
+  level: "INFO"                            # DEBUG, INFO, WARNING, ERROR
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  dateFormat: "%Y-%m-%d %H:%M:%S"
